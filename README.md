@@ -329,7 +329,7 @@ The range(5) function generates a sequence of numbers from 0 to 4 (inclusive of 
 
 
 ## Lab 2 Sign-Off
-- Submit a PDF named using your Seneca username, like: jdoe_lab1.pdf on Blackbaord.
+- Submit a PDF named using your Seneca username, like **salim123.pdf** on Blackbaord.
 - The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
     - lab2a.py
     - lab2b.py
