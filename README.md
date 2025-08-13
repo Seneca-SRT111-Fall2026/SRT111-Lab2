@@ -285,7 +285,7 @@ Please type in a number: 0
 Exiting ...
 ```
 
-### Part A: for Loop:
+### Part B: for Loop:
 A for loop is used for iterating over a sequence (that could be either a list, a tuple, a dictionary, a set, or a string).
 With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
 A very common example of for loop found in all text books is:
@@ -306,17 +306,21 @@ for i in range(5):
 The range(5) function generates a sequence of numbers from 0 to 4 (inclusive of 0, exclusive of 5).
 
 
-### lab2j.py
-Write a Python program that calculates the sum of all even numbers from 1 to 100 (inclusive).
-- Use a for loop to iterate over the range of numbers from 1 to 100.
-- Inside the loop, check if the current number is even.
-- If the number is even, add it to a running total.
-- After the loop, print the final sum.
+### lab2j.py - Summing Even Numbers with a For Loop
+**Objective:** To use a for loop and conditional logic to calculate the sum of all even numbers from 1 to 100 (inclusive).
+
+**Instructions**
+- Open lab2j.py and fill in the required fields in the comment section.
+- Write a Python program that.
+   - Uses a for loop to iterate over the numbers from 1 to 100 (inclusive).
+   - Checks if each number is even using the modulo operator (%).
+   - Adds even numbers to a running total.
+   - Prints the final sum after the loop ends.
+
 
 ## Lab 2 Sign-Off
-- Submit the screenshots of each individual script, the screenshot must show your scripts and command line interface and output.
-- The screenshot must also show your username on github codespaces.
-- Submit individual screenshots of the following scripts on blackboard. If the screenshots do not correctly show the information mentioned above, you will get zero marks for the lab.
+- Submit a PDF named using your Seneca username, like: jdoe_lab1.pdf on Blackbaord.
+- The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
     - lab2a.py
     - lab2b.py
     - lab2c.py
@@ -327,5 +331,5 @@ Write a Python program that calculates the sum of all even numbers from 1 to 100
     - lab2h.py
     - lab2i.py
     - lab2j.py
-- Make sure screenshots are readable.
-- Screenshots should be named as lab2a.png, lab2b.png etc...
+- Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
+- Blurry or unreadable submissions will be returned for redo. Resubmissions will be only graded as "**Satisfactory**" with a grade of 0, provided the work is satisfactory. 
