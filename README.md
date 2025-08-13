@@ -212,10 +212,10 @@ while expression:
       count = count + 1  # Loop body, count is incremented,  or else the loop will continue forever
   print('loop has ended')  # This statement is not part of loop body. This statement will be executed once the loop condition becomes false.
   ```
-  ### lab2g.py - Understanding While Loops in Python
- **Objective:** To explore counter-controlled and event-driven while loops in Python and understand common loop-related errors such as the off-by-one error.
+### lab2g.py - Understanding While Loops in Python
+**Objective:** To explore counter-controlled and event-driven while loops in Python and understand common loop-related errors such as the off-by-one error.
 
-  **Instructions**
+**Instructions**
 - Fill in required fields in comment section
 - Copy the above code block in lab2g.py.
 - Change the value of count to 1 and then run the program to see how many times the loop runs.
