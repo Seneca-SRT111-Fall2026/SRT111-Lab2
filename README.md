@@ -23,6 +23,9 @@ An IF statement is a decision statement that executes or does not execute a sect
 In investigation 1 you will learn how to take input from user, and compare it with other values.
 
 ### lab2a.py - Simple if statement
+**Objectve:** Practice using if statements in Python to make decisions based on user input, including type conversion, relational operators, and Boolean conditions.
+**Instructions**
+
 - Open the file lab2a.py and fill in the required feilds in the comment section.
 - Create a variable named `x` and store a value entered by the user using the `input()` function.  
     - The prompt should clearly ask for a number, for example:  
