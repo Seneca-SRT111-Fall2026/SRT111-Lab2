@@ -33,10 +33,10 @@ An IF statement is a decision statement that executes or does not execute a sect
 In investigation 1 you will learn how to take input from user, and compare it with other values.
 
 ### lab2a.py - Simple if statement
-**Objectve:** Practice using if statements in Python to make decisions based on user input, including type conversion, relational operators, and Boolean conditions.
+**Objective:** Practice using if statements in Python to make decisions based on user input, including type conversion, relational operators, and Boolean conditions.
 
 **Instructions**
-- Open the file lab2a.py and fill in the required feilds in the comment section.
+- Open the file lab2a.py and fill in the required fields in the comment section.
 - Create a variable named `x` and store a value entered by the user using the `input()` function.  
     - The prompt should clearly ask for a number, for example:  
       ```python
@@ -58,10 +58,10 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 
 ### lab2b.py - Using if-else statement
 **Objective:** Practice decision-making in Python using the `if-else` statement to compare user input with a specific value.
-**Instructions**
+**Instructions: **
 
-- Open the file lab2a.py and and fill in the required fields in the comment section.
-- Use the input() function and ask the user to enter a 4 digit integer. Save this value in the variable `num`. For example:
+- Open the file lab2b.py and fill in the required fields in the comment section.
+- Use the input() function and ask the user to enter a 4-digit integer. Save this value in the variable `num`. For example:
   ```python
       num = input("Enter a 4-digit number: ")
   ```
@@ -77,7 +77,7 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 
 
 ### lab2c.py - String comparison
-**Objective:** Practice using `if`, `elif`, and `else` statements in Python to compare the length of strings inputted by the user.
+**Objective:** Practice using `if`, `elif`, and `else` statements in Python to compare the length of strings entered by the user.
 
 **Instructions**
 
@@ -100,10 +100,10 @@ In investigation 1 you will learn how to take input from user, and compare it wi
     ```
 
 ## INVESTIGATION 2: USING COMMAND LINE ARGUMENTS
-So far you have been using the input() function to get user input. We can also provide input from command line as an argument after your script name on the command line. 
-In this section, you will learn how to pass an argument to your Python script, but this time, the argument will be passed when you execute your Python script from the terminal. In fact, your script name is also an argument to python interpreter. You can provide additional arguments. 
+So far you have been using the `input()` function to get user input. We can also provide input from command line as an argument after your script name on the command line. 
+In this section, you will learn how to pass an argument to your Python script, but this time, the argument will be passed when you execute your Python script from the terminal. In fact, your script name is also an argument to Python interpreter. You can provide additional arguments. 
 
-In order to access command line arguments in Python, we will need to use a special python object called `sys.argv` from the `sys module`. We can use the python keyword import to load the `sys module` so that we can access it in our python script. `sys.argv` is a list object which is used to hold everything given at the command line, including the command itself.
+In order to access command line arguments in Python, we will need to use a special Python object called `sys.argv` from the `sys module`. We can use the Python keyword `import` to load the `sys module` so that we can access it in our python script. `sys.argv` is a list object which is used to hold everything given at the command line, including the command itself.
 
 The `sys module` is one of the built-in modules that comes with the Python interpreter. By issuing the import sys statement at the top of a python script, it will load the code written by another person. Each 'library' (or 'module') that gets loaded will give us extra functionality and objects to our python script.
 
@@ -172,7 +172,7 @@ output: The script requires atleast 2 arguments.
 
 ## INVESTIGATION 3: USING NESTED CONDITIONS
 - Using nested conditions are helpfull im multiple situations in python.
-- Nested conditions are using statments like if and else multipule times on top of each other.
+- Nested conditions are using statements like if and else multipule times on top of each other.
 - These can be used when you have to narrow down specifics or doing more complex conditions.
 - In investigation 3 you will learn how to use nested conditions and will practice using them.
 - example:
@@ -189,12 +189,12 @@ if x < 6:
 
 ![incomeTaxExample](https://github.com/user-attachments/assets/e7325ff1-a90f-445d-b119-06b95cc103c6)
 
-**Instructions**
+**Instructions:**
 
 - Open lab2f.py and ensure the comment section is completed.
 - Create a program that calculates tax based on the table in the image above.
 - The script should include a variable `income`. The value of `income` should be entered by the user and should be a number (preferably in the thousands).Convert the input to an integer or float as needed.
-- The value of income should be a number (preferably in the thousands) inputted by the user.
+- The value of income should be a number (preferably in the thousands) entered by the user.
 - The script should also include a variable `status`.The value of `status` will be entered by the user and must be either `"single"` or `"married"`.  
 - Use **nested** `if`, `elif`, and `else` statements to model the logic shown in the tax chart.  
 - Use **relational operators** to compare `income` and `status` with the threshold values in the table.  
@@ -202,10 +202,10 @@ if x < 6:
 
 
 ## INVESTIGATION 4: USING LOOPS
-Loops are used in all programming languages for multiple situations. Loops use an expression and will repeat the code under the expression untill the expression is True. In investigation 4 you will learn about the 2 types of loops; `while loop and for loop`.
+Loops are used in all programming languages for multiple situations. Loops use an expression and will repeat the code under the expression until the expression is True. In investigation 4 you will learn about the 2 types of loops: `while loop and for loop`.
 
 ### Part A: while Loop:
-In Python, a while loop is used to execute a block of statements repeatedly until a given condition/expression is satisfied. When the condition becomes false, the line immediately after the loop in the program is executed. while loops may use the same type of expression/condition found in IF statements. While the expression is evaluated to True, the code - indented under the while loop will be repeated. When the expression becomes False the loop will stop repeating the indented - code.
+In Python, a while loop is used to execute a block of statements repeatedly until a given condition/expression is satisfied. When the condition becomes false, the line immediately after the loop in the program is executed. while loops may use the same type of expression/condition found in IF statements. While the expression is evaluated to True, the code - indented under the while loop will be repeated. When the expression becomes False the loop will stop repeating the indented code.
 All the statements are indented by the same number of character spaces after a programming construct are considered to be part of a single block of code.
 
 ```
