@@ -11,11 +11,17 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 ### lab2a.py
 #### Simple if statement
 - Open the file lab2a.py and fill in the required feilds in the comment section.
-- Create a variable named `x` and assign it a value obtained from the user using the `input()` function.  
+- Create a variable named `x` and store a value entered by the user using the `input()` function.  
+    - The prompt should clearly ask for a number, for example:  
+      ```python
+      x = input("Please enter a number: ")
+      ```    
     - **Note:** The `input()` function always returns a value of type `str` (string), even if the user types a number.  
-- Use the `type()` function to check the type of `x` and print the result.  
-- Observe that the type of `x` is `str`.  
-- Convert `x` to an integer using the `int()` function and update the variable `x` with this integer value.  
+- Use the `type()` function to check the type of `x` and print the result. Observe that the type of `x` is `str`.  
+- Convert `x` to an integer using the `int()` function and update the variable `x` with this integer value using the statment:
+   ```python
+    x = int(x)
+   ```   
 - Write an if-statement to check if `x` is greater than or equal to 6.  
     - If the condition is `True`, print:  
       ```
