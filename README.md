@@ -10,15 +10,19 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 
 ### lab2a.py
 #### Simple if statement
-- Fill in the required feilds in the comment section.
-- Create a variable x, and set its value as a number inputted from the user. 
-- Use the `type()` function to check the type of `x`.
-- You will notice that the type of `x` is `str`.
-- Convert `x` to integer.
-- Write an if-statement to evaluate the expression if x is greater than or equal to 6.
-- If the expressions evaluates to TRUE, print: `"x is greater then 6!"
-- Next write another if statement combining both relational and Boolean operator to evaluate the expression if x is greater than or equal to 4 and x is less than 2.
-- Print the appropiate messge to user if the expression evaluates to TRUE.
+1. Open the file lab2a.py and fill in the required feilds in the comment section.
+2. Create a variable named `x` and assign it a value obtained from the user using the `input()` function.  
+    - **Note:** The `input()` function always returns a value of type `str` (string), even if the user types a number.  
+3. Use the `type()` function to check the type of `x` and print the result.  
+4. Observe that the type of `x` is `str`.  
+5. Convert `x` to an integer using the `int()` function and update the variable `x` with this integer value.  
+6. Write an if-statement to check if `x` is greater than or equal to 6.  
+    - If the condition is `True`, print:  
+      ```
+      x is greater than or equal to 6!
+      ```  
+7. Write another if-statement that uses both relational and Boolean operators to check if `x` is greater than or equal to 4 **and** less than 12.  
+    - If this condition is `True`, print an appropriate message informing the user (for example: `"x is between 4 and 11 inclusive"`).  
 
 ### lab2b.py
 #### Using if-else statement
