@@ -175,8 +175,9 @@ if x < 6:
 ```
 
 ### lab2f.py - Income Tax Calculator with nested conditions
-![incomeTaxExample](https://github.com/user-attachments/assets/e7325ff1-a90f-445d-b119-06b95cc103c6)
 **Objective:** Practice using nested `if`, `elif`, and `else` statements in Python to apply conditional logic based on multiple variables.
+
+![incomeTaxExample](https://github.com/user-attachments/assets/e7325ff1-a90f-445d-b119-06b95cc103c6)
 
 **Instructions**
 
