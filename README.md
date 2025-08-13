@@ -216,6 +216,7 @@ In Python, a `while` loop is used to execute a block of statements repeatedly **
 A `while` loop can use the same type of Boolean expressions found in `if` statements.  
 While the condition remains `True`, all indented statements in the loop body will run repeatedly.  
 When the condition becomes `False`, the loop stops.
+
 **Note:** In Python, all statements indented by the same number of spaces after a control structure are considered part of the same block.
 
 **Syntax:**
@@ -241,16 +242,16 @@ print('Loop has ended')  # runs after the condition becomes False
 **Objective:** To explore counter-controlled and event-driven while loops in Python and understand common loop-related errors such as the off-by-one error.
 
 **Instructions**
-- Fill in required fields in comment section
+- Fill in the required fields in comment section
 - Copy the above code block in lab2g.py.
 - Change the value of count to 1 and then run the program to see how many times the loop runs.
 - Next change the while condition to `count < 5 ` and then run the program to see how many times the loop runs.
 - Next change the condition to `count <= 5` and then run the program to see how many times the loop runs.
 - What did you observe in all of the above examples when you change the value of loop variable or the expression. It is important that you are well aware of initial value of loop variable and the condition in the loop expression to know exactly how many times the loop will be executed.
-- Search on internet about "What is off by 1 error in loops"?
+- Search on the internet about "What is off by 1 error in loops"?
 
-Next we will do a more complex but really useful example.
-In python, we often use while loop to see if the user entered the required value. We keep asking the user for a value until the user enters the correct value. This is a scenario driven by an event rather than driven by a counter, because you do not know how many times the user will enter the incorrect value before the user enters the correct value. See the example below:
+Next, we will do a more complex but really useful example.
+In Python, we often use while loop to see if the user entered the required value. We keep asking the user for a value until the user enters the correct value. This is a scenario-driven by an event rather than driven by a counter, because you do not know how many times the user will enter the incorrect value before the user enters the correct value. See the example below:
 
 ```Python
 guess = 5
@@ -267,9 +268,9 @@ print("You got it right!") # this statement will be executed when loop has termi
 
 **Instructions:**
 - Open lab2h.py and fill in the required fields in the comment section.
-- Create a variable called `pin`. Use the input() function to ask the user to enter a 4-digit PIN.
-- Use a while loop to keep asking for the PIN until the user enters 1234.
-- Add a check to ensure the user enters a 4-digit number.
+- Create a variable called `pin`. Use the `input()` function to ask the user to enter a 4-digit PIN.
+- Use a while loop to keep asking for the PIN until the user enters the correct PIN `1234`.
+- Add a validation check to ensure the user enters exactly 4 digits and that all characters are numeric.
 - Your output should look like this:
 ```
 Please type in your PIN: 0000
@@ -292,7 +293,7 @@ Keep practicing, attempt this next exercise now!
 - Write a program that repeatedly prompts the user to input a number.
 - Based on the input, the program should:
     -  **Negative Number**: Print "Invalid number." and prompt again (use continue).
-    -  **Zero**: Print "Exiting..." and terminate the loop (use break).
+    -  **Zero**: Print "Exiting ..." and terminate the loop (use break).
     - **Non-Negative Number**: Calculate and print the square root of the number
 - **Sample output**: 
 ``` Python
@@ -344,7 +345,7 @@ The range(5) function generates a sequence of numbers from 0 to 4 (inclusive of 
 
 
 ## Lab 2 Sign-Off
-- Submit a PDF named using your Seneca username, like **salim123.pdf** on Blackbaord.
+- Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackbaord*.
 - The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
     - lab2a.py
     - lab2b.py
@@ -357,4 +358,4 @@ The range(5) function generates a sequence of numbers from 0 to 4 (inclusive of 
     - lab2i.py
     - lab2j.py
 - Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
-- Blurry or unreadable submissions will be returned for redo. Resubmissions will be only graded as "**Satisfactory**" with a grade of 0, provided the work is satisfactory. 
+- Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as "**Satisfactory**" with a grade of 0, provided the work is satisfactory. 
