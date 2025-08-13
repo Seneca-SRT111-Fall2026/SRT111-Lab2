@@ -130,6 +130,7 @@ print(len(sys.argv)) # tells us the number of command line arguments the user pr
  
 ### lab2e.py - Using Command-Line Arguments with Conditional Logic
 **Objective:** To practice using command-line arguments in Python and apply conditional logic to process user input.
+
 **Instructions**
 - Open lab2e.py and ensure the comment section is completed
 - This script requires exactly two arguments after the script name: a name and an age.
