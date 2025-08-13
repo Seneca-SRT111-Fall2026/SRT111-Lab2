@@ -1,9 +1,19 @@
-# PRG101-Lab2
+# Lab2
 In this lab, you will create **ten simple Python scripts**. All scripts must be written in **GitHub Codespaces**.
 This lab focuses on practicing **decision-making** and **iteration** in Python, including:  
 - `if` statements  
 - `for` loops  
-- `while` loops  
+- `while` loops
+
+# Lab Objectives
+- Understand and utilize Python's system-level capabilities.
+- Develop proficiency in handling user input and validating data
+- Apply control flow structures to solve real-world problems
+- Master loop constructs for both counter-driven and event-driven tasks
+- Implement loop control mechanisms using break and continue
+- Recognize and avoid common programming pitfalls
+- Document and present code execution results through screenshots and organized submission.
+ 
 
 # Submission Instructions
 For each task:
