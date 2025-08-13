@@ -194,7 +194,7 @@ if x < 6:
 ## INVESTIGATION 4: USING LOOPS
 Loops are used in all programming languages for multiple situations. Loops use an expression and will repeat the code under the expression untill the expression is True. In investigation 4 you will learn about the 2 types of loops; `while loop and for loop`.
 
-**while Loop:**
+### Part A: while Loop:
 In Python, a while loop is used to execute a block of statements repeatedly until a given condition/expression is satisfied. When the condition becomes false, the line immediately after the loop in the program is executed. while loops may use the same type of expression/condition found in IF statements. While the expression is evaluated to True, the code - indented under the while loop will be repeated. When the expression becomes False the loop will stop repeating the indented - code.
 All the statements are indented by the same number of character spaces after a programming construct are considered to be part of a single block of code.
 
@@ -286,7 +286,7 @@ Please type in a number: 0
 Exiting ...
 ```
 
-**for Loop:**
+### Part A: for Loop:
 A for loop is used for iterating over a sequence (that could be either a list, a tuple, a dictionary, a set, or a string).
 With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
 A very common example of for loop found in all text books is:
