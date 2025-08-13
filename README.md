@@ -77,25 +77,17 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 - Use the `len()` function to determine the length of each string.  
 - Use `if`, `elif`, and `else` statements to compare the lengths of `str1` and `str2`:  
   - If `str1` is longer, print:  
-    ```
+    ```python
     str1 is longer than str2!
     ```  
   - If `str2` is longer, print:  
-    ```
+    ```python
     str2 is longer than str1!
     ```  
   - If they are equal in length, print:  
-    ```
+    ```python
     str1 and str2 are of equal length!
     ```
-  - Sample output:
-  ``` python
-      #If the user inputs:  
-      #`str1`: "Hello world"  
-      #`str2`: "Python"  
-      #Output should be:  
-      str1 is longer than str2!
-```
 
 ## INVESTIGATION 2: USING COMMAND LINE ARGUMENTS
 So far you have been using the input() function to get user input. We can also provide input from command line as an argument after your script name on the command line. 
