@@ -1,7 +1,21 @@
 # PRG101-Lab2
-# Submission Details
+In this lab, you will create **ten simple Python scripts**. All scripts must be written in **GitHub Codespaces**.
+This lab focuses on practicing **decision-making** and **iteration** in Python, including:  
+- `if` statements  
+- `for` loops  
+- `while` loops  
 
-In this lab you will create ten simple scripts. Write the scripts in codespaces. Thius lab requires students to create and execute simple python decision and iteration statemenst which include if statements, for loop and while loop.
+# Submission Instructions
+For each task:
+1. **Write the script** in Codespaces.  
+2. **Run the script** from the **terminal**.  
+3. **Take a screenshot** that clearly shows:  
+   - Your **code** in the editor.  
+   - The **terminal output**, including your **username** visible in the terminal.  
+4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
+   - Example: **Lab2a**, **Lab2b**, **Lab2c**, etc.  
+5. After completing all tasks, **convert the Word document to PDF**.  
+6. **Submit the PDF file** as your final lab submission.
 
 
 ## INVESTIGATION 1: USING IF-ELSE AND input() FUNCTION
