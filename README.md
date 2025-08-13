@@ -46,11 +46,24 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 - Write another if-statement that uses both relational and Boolean operators to check if `x` is greater than or equal to 4 **and** less than 12.  
     - If this condition is `True`, print an appropriate message informing the user (for example: `"x is between 4 and 11 inclusive"`).  
 
-### lab2b.py
-#### Using if-else statement
-- Fill in the required feilds in the comment section.
-- Use the input() function and ask the user to enter a 4 digit integer. Save this value in the vraiable `num`.
-- The program should print out "George Orwell" if the number is exactly 1984, and otherwise prints “Not quite right!”. Use `if`, and `else` statement.
+### lab2b.py - Using if-else statement
+**Objective:** Practice decision-making in Python using the `if-else` statement to compare user input with a specific value.
+**Instructions**
+
+- Open the file lab2a.py and and fill in the required feilds in the comment section.
+- Use the input() function and ask the user to enter a 4 digit integer. Save this value in the vraiable `num`. For example:
+  ```python
+      num = input("Enter a 4-digit number: ")
+      ```
+  - Write an `if-else` statement to check if the number is **exactly 1984**:  
+    - If `True`, print:  
+      ```
+      George Orwell
+      ```  
+    - If `False`, print:  
+      ```
+      Not quite right!
+      ```
 
 
 ### lab2c.py
