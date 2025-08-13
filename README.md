@@ -56,11 +56,11 @@ In investigation 1 you will learn how to take input from user, and compare it wi
       num = input("Enter a 4-digit number: ")
   ```
   - Write an `if-else` statement to check if the number is **exactly 1984**:  
-    - If `True`, print:  
+  - If `True`, print:  
       ```
       George Orwell
       ```  
-    - If `False`, print:  
+  - If `False`, print:  
       ```
       Not quite right!
       ```
