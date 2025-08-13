@@ -236,7 +236,6 @@ while number != guess:  # loop condition
 print("You got it right!") # this statement will be executed when loop has terminated which will only happen when the user enters the number 5.
 
 ```
-Now attempt this example yourself.
 
 ### lab2h.py - Validating User Input with a While Loop
 **Objective:** To use a while loop to repeatedly prompt the user for a 4-digit PIN until the correct value is entered.
