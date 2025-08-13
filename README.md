@@ -132,7 +132,7 @@ print(len(sys.argv)) # tells us the number of command line arguments the user pr
 **Objective:** To practice using command-line arguments in Python and apply conditional logic to process user input.
 
 **Instructions**
-- Open lab2e.py and ensure the comment section is completed
+- Open lab2e.py and ensure the comment section is completed.
 - This script requires exactly two arguments after the script name: a name and an age.
 - Create a variable name and assign it sys.argv[1].
 - Create a variable age and assign it sys.argv[2].
@@ -174,18 +174,20 @@ if x < 6:
         print("x is less than 6 and x is greater than 2.")
 ```
 
-### lab2f.py
+### lab2f.py - Income Tax Calculator with nested conditions
 ![incomeTaxExample](https://github.com/user-attachments/assets/e7325ff1-a90f-445d-b119-06b95cc103c6)
+**Objective:** Practice using nested `if`, `elif`, and `else` statements in Python to apply conditional logic based on multiple variables.
 
-- Fill in required feilds in comment section.
-- Create a program claculating tax with the image above.
-- The script should include a variable `income`.
+**Instructions**
+
+- Open lab2f.py and ensure the comment section is completed.
+- Create a program that calculates tax based on the table in the image above.
+- The script should include a variable `income`. The value of `income` should be entered by the user and should be a number (preferably in the thousands).Convert the input to an integer or float as needed.
 - The value of income should be a number (preferably in the thousands) inputted by the user.
-- The script should also include a variable `status`.
-- The value of status will either be "single" or "married" entered by the user.
-- Use nested `if`, `elif`, and `else` statments to create a working model of the image above.
-- Also use relational operators to compare `income` and `status` with the threshold values.
-- Test your program with multiple different numbers.
+- The script should also include a variable `status`.The value of `status` will be entered by the user and must be either `"single"` or `"married"`.  
+- Use **nested** `if`, `elif`, and `else` statements to model the logic shown in the tax chart.  
+- Use **relational operators** to compare `income` and `status` with the threshold values in the table.  
+- Test your program with multiple different combinations of income and marital status to ensure it works correctly.
 
 
 ## INVESTIGATION 4: USING LOOPS
