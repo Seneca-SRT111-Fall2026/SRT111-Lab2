@@ -22,8 +22,7 @@ For each task:
 An IF statement is a decision statement that executes or does not execute a section of code based on whether the condition is True or False.
 In investigation 1 you will learn how to take input from user, and compare it with other values.
 
-### lab2a.py
-#### Simple if statement
+### lab2a.py - Simple if statement
 - Open the file lab2a.py and fill in the required feilds in the comment section.
 - Create a variable named `x` and store a value entered by the user using the `input()` function.  
     - The prompt should clearly ask for a number, for example:  
