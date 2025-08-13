@@ -193,35 +193,50 @@ if x < 6:
 
 - Open lab2f.py and ensure the comment section is completed.
 - Create a program that calculates tax based on the table in the image above.
-- The script should include a variable `income`. The value of `income` should be entered by the user and should be a number (preferably in the thousands).Convert the input to an integer or float as needed.
-- The value of income should be a number (preferably in the thousands) entered by the user.
-- The script should also include a variable `status`.The value of `status` will be entered by the user and must be either `"single"` or `"married"`.  
+- The script should include a variable `income`. The value of `income` should be entered by the user and should be a number (preferably in the thousands).
+- Convert the input to an integer or float so it can be used in numeric comparisons.
+- Include a variable `status`, prompt the user to enter either `"single"` or `"married"`.
 - Use **nested** `if`, `elif`, and `else` statements to model the logic shown in the tax chart.  
 - Use **relational operators** to compare `income` and `status` with the threshold values in the table.  
 - Test your program with multiple different combinations of income and marital status to ensure it works correctly.
 
 
 ## INVESTIGATION 4: USING LOOPS
-Loops are used in all programming languages for multiple situations. Loops use an expression and will repeat the code under the expression until the expression is True. In investigation 4 you will learn about the 2 types of loops: `while loop and for loop`.
+Loops are used in all programming languages to repeat code under certain conditions.  
+A loop runs as long as its condition (expression) evaluates to `True`.  
+When the condition becomes `False`, the program continues with the next line after the loop.
+
+In Investigation 4, you will learn about the two main types of loops in Python:  
+- `while` loop  
+- `for` loop  
+
 
 ### Part A: while Loop:
-In Python, a while loop is used to execute a block of statements repeatedly until a given condition/expression is satisfied. When the condition becomes false, the line immediately after the loop in the program is executed. while loops may use the same type of expression/condition found in IF statements. While the expression is evaluated to True, the code - indented under the while loop will be repeated. When the expression becomes False the loop will stop repeating the indented code.
-All the statements are indented by the same number of character spaces after a programming construct are considered to be part of a single block of code.
+In Python, a `while` loop is used to execute a block of statements repeatedly **while** a given condition is `True`.  
+A `while` loop can use the same type of Boolean expressions found in `if` statements.  
+While the condition remains `True`, all indented statements in the loop body will run repeatedly.  
+When the condition becomes `False`, the loop stops.
+**Note:** In Python, all statements indented by the same number of spaces after a control structure are considered part of the same block.
 
-```
-while expression:
+**Syntax:**
+```python
+while condition:
     statement(s)
-
 ```
-- A while loop is used commonly in scenarios where you would like to repeat certain statements until an event is True or False. While loop is also called event-controlled loop. Below is a WHILE loop which will run five times. Each time the loop is run, it will add one to the integer count object, increasing the value of the count object. The variable count is iteration variable and it values changes in each iteration.
+**Key points:**
+- Commonly used when you want to repeat statements until an event occurs (event-controlled loop).
+- The loop must have a way to change the condition to avoid running forever.
+- An iteration variable is often used in the condition and is updated inside the loop.
   
-  ``` Python
-  count = 0  # iteration variable, while loop requires a relevant variable which is used in the loop expression
-  while count != 5: # expression (evaluates to True or False)
-      print(count)   # Loop body
-      count = count + 1  # Loop body, count is incremented,  or else the loop will continue forever
-  print('loop has ended')  # This statement is not part of loop body. This statement will be executed once the loop condition becomes false.
-  ```
+ ```python
+count = 0  # iteration variable
+while count != 5:  # condition (evaluates to True or False)
+    print(count)   # loop body
+    count = count + 1  # update the iteration variable
+
+print('Loop has ended')  # runs after the condition becomes False
+```
+
 ### lab2g.py - Understanding While Loops in Python
 **Objective:** To explore counter-controlled and event-driven while loops in Python and understand common loop-related errors such as the off-by-one error.
 
