@@ -212,8 +212,11 @@ while expression:
       count = count + 1  # Loop body, count is incremented,  or else the loop will continue forever
   print('loop has ended')  # This statement is not part of loop body. This statement will be executed once the loop condition becomes false.
   ```
-  ### lab2g.py
-- Fill in required feilds in comment section
+  ### lab2g.py - Understanding While Loops in Python
+ **Objective:** To explore counter-controlled and event-driven while loops in Python and understand common loop-related errors such as the off-by-one error.
+
+  **Instructions**
+- Fill in required fields in comment section
 - Copy the above code block in lab2g.py.
 - Change the value of count to 1 and then run the program to see how many times the loop runs.
 - Next change the while condition to `count < 5 ` and then run the program to see how many times the loop runs.
@@ -221,48 +224,53 @@ while expression:
 - What did you observe in all of the above examples when you change the value of loop variable or the expression. It is important that you are well aware of initial value of loop variable and the condition in the loop expression to know exactly how many times the loop will be executed.
 - Search on internet about "What is off by 1 error in loops"?
 
-Next we will do a more comples example but really useful example.
-In python, we often use while loop to see if the user entered the required value. We keep asking the user for a value until the user enters the correct value. This is a scenario driven by an event rather than driven by a counter, becasue you do not know how many times the user will enter the incorrect value before the suer enters the correct value. See the example below:
+Next we will do a more complex but really useful example.
+In python, we often use while loop to see if the user entered the required value. We keep asking the user for a value until the user enters the correct value. This is a scenario driven by an event rather than driven by a counter, because you do not know how many times the user will enter the incorrect value before the user enters the correct value. See the example below:
 
 ```Python
 guess = 5
-number = int(input("Guess what number less than 10 I am thinking off?"))
+number = int(input("Guess what number less than 10 I am thinking of?"))
 while number != guess:  # loop condition 
-  print("incorrect guess, try again...)
+  print("incorrect guess, try again...")
   number = int(input("Guess what number less than 10 I am thinking off?")) # keep taking input from user until the user enters the correct guess.
 print("You got it right!") # this statement will be executed when loop has terminated which will only happen when the user enters the number 5.
 
 ```
 Now attempt this example yourself.
 
-### lab2h.py
-- Fill in required feilds in the comments section.
-- The script should include a variable `pin`.
-- The value of `pin` should be a 4 digit code entered by the user.
-- Use a while loop to create a program that wont end until the user enters the correct pin 1234.
-- The result should be like this:
+### lab2h.py - Validating User Input with a While Loop
+**Objective:** To use a while loop to repeatedly prompt the user for a 4-digit PIN until the correct value is entered.
+
+**Instructions:**
+- Open lab2h.py and fill in the required fields in the comment section.
+- Create a variable called `pin`. Use the input() function to ask the user to enter a 4-digit PIN.
+- Use a while loop to keep asking for the PIN until the user enters 1234.
+- Add a check to ensure the user enters a 4-digit number.
+- Your output should look like this:
 ```
 Please type in your PIN: 0000
 Incorrect...try again
 
 Please type in your PIN: 199
 
-Incorrect...try again
+Incorrect...enter a 4 digit number
 
 Please type in your PIN: 1234
 Correct PIN, You can enter!
 ```
 Keep practicing, attempt this next exercise now!
 
-### lab2i.py
-In this exercise, you will practice using break and continue statements in a loop. This script will handle the user input, check for invalid numbers, continue if the number is negative, and exit the loop when zero is entered.
-- Next write a program that repeatedly prompts the user to input a number and performs the following actions based on the input:
-    -  Negative Number: If the user inputs a negative number, the program prints "Invalid number." and prompts for a new input. Use continue statement
-    -  Zero: If the user inputs zero, the program prints "Exiting..." and terminates. Use break statement
-    - Non-Negative Number: For any other non-negative number:
-        -  The program calculates the square root of the number and prints the square root as output.
-    - The program continues to prompt the user for input until the user enters zero.
-- The result should be: 
+### lab2i.py - Using break and continue in Loops
+**Objective:** To practice using break and continue statements in Python loops to control flow based on user input.
+
+**Instructions:**
+- Open lab2i.py and fill in the required fields in the comment section.
+- Write a program that repeatedly prompts the user to input a number.
+- Based on the input, the program should:
+    -  **Negative Number**: Print "Invalid number." and prompt again (use continue).
+    -  **Zero**: Print "Exiting..." and terminate the loop (use break).
+    - **Non-Negative Number**: Calculate and print the square root of the number
+- **Sample output**: 
 ``` Python
 
 Please type in a number: 9
