@@ -97,16 +97,18 @@ In order to access command line arguments in Python, we will need to use a speci
 
 The `sys module` is one of the built-in modules that comes with the Python interpreter. By issuing the import sys statement at the top of a python script, it will load the code written by another person. Each 'library' (or 'module') that gets loaded will give us extra functionality and objects to our python script.
 
-### lab2d.py
-- Fill in the required feilds in the comment section.
-- Import the sys module.
-- Next add the following lines in your script.
+### lab2d.py - Exploring Python's sys Module and Command-Line Arguments
+ **Objective:** To explore Python's sys module and understand how command-line arguments are accessed and utilized in scripts.
 
+**Instructions**
+- Open the file lab2d.py and fill in the required fields in the comment section.
+- Import the sys module.
+- Next, add the following lines to your script.
 ``` Python
 print(sys.version) # prints the version of the python currently in use.
 print(sys.platform) # prints the name of operating system.
 print(sys.argv) # prints the list of all arguments given at the command line when running our python script from terminal.
-print(len(sys.argv)) # tells us the number of command line arguments the user provides from terminal.
+print(len(sys.argv)) # Displays the number of command-line arguments provided by the user.
 ```
 - Run your script using the command `python ./lab2d.py`
 - Observe the output. How many arguments were passed to python this time?  Only one, which is the script name. You will see the path to the script file in the output of  print(sys.argv).
@@ -120,15 +122,20 @@ print(len(sys.argv)) # tells us the number of command line arguments the user pr
 ```
 - Now run the script using the following command: `python ./lab2d.py maija Maija`.
 - What do you observe? What did you learn?  This time we provided three arguments. The name of script is the first argument, second argument is maija and third argument is Maija.
+- Answer the following questions:
+    - What happens if you run the script without any additional arguments?
+    - Why is sys.argv[0] always the script name?
+    - How could you use command-line arguments in real-world applications?
+
  
-### lab2e.py
-- Fill in the required feilds in the comment section.
-- For this script, we are interested in how many arguments are provided after the script name. This is important because our script needs the arguments to receive data from user.
-- Let’s assume that our script requires exactly two arguments.
-- Create a variable called name.
-- Create another variable called age.
-- The script should assign the string sys.argv[1] (first argument) to the variable "name".
-- The script should assign the string sys.argv[2] (second argument) to the variable "age".
+### lab2e.py - Using Command-Line Arguments with Conditional Logic
+**Objective:** To practice using command-line arguments in Python and apply conditional logic to process user input.
+**Instructions**
+- Open lab2e.py and ensure the comment section is completed
+- This script requires exactly two arguments after the script name: a name and an age.
+- Create a variable name and assign it sys.argv[1].
+- Create a variable age and assign it sys.argv[2].
+- Ensure the script checks if exactly two arguments are provided. If not, print an error message and exit.
 - The script should use if-else or if-elf or if-elif-else structure and should print the EXACT OUTPUT as shown below.
 
  **Sample Run 1:**
