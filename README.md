@@ -54,7 +54,7 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 - Use the input() function and ask the user to enter a 4 digit integer. Save this value in the vraiable `num`. For example:
   ```python
       num = input("Enter a 4-digit number: ")
-      ```
+  ```
   - Write an `if-else` statement to check if the number is **exactly 1984**:  
     - If `True`, print:  
       ```
