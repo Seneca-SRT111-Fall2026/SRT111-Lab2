@@ -1,8 +1,8 @@
 # PRG101-Lab2
 # Submission Details
 
-In this lab you will create 10 simple scripts. Write the scripts in GitHub Codespaces. 
-Please note that you must complete the lab during the class hours and show your progress to the professor to receive the marks for the lab.
+In this lab you will create ten simple scripts. Write the scripts in codespaces. Thius lab requires students to create and execute simple python decision and iteration statemenst which include if statements, for loop and while loop.
+
 
 ## INVESTIGATION 1: USING IF-ELSE AND input() FUNCTION
 An IF statement is a decision statement that executes or does not execute a section of code based on whether the condition is True or False.
