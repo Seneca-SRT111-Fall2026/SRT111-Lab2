@@ -71,7 +71,7 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 
 **Instructions**
 
-- Open the file lab2c.py and fill in the required fields in the comment section..  
+- Open the file lab2c.py and fill in the required fields in the comment section.
 - Create two variables named `str1` and `str2`.  
 - Assign each variable a sentence entered by the user using the `input()` function.  
 - Use the `len()` function to determine the length of each string.  
@@ -89,14 +89,14 @@ In investigation 1 you will learn how to take input from user, and compare it wi
     str1 and str2 are of equal length!
     ```
   - Sample output:
-  ```
-#If the user inputs:  
-#`str1`: "Hello world"  
-#`str2`: "Python"  
-#Output should be:  
-str1 is longer than str2!
-
+  ``` python
+      #If the user inputs:  
+      #`str1`: "Hello world"  
+      #`str2`: "Python"  
+      #Output should be:  
+      str1 is longer than str2!
 ```
+
 ## INVESTIGATION 2: USING COMMAND LINE ARGUMENTS
 So far you have been using the input() function to get user input. We can also provide input from command line as an argument after your script name on the command line. 
 In this section, you will learn how to pass an argument to your Python script, but this time, the argument will be passed when you execute your Python script from the terminal. In fact, your script name is also an argument to python interpreter. You can provide additional arguments. 
