@@ -50,8 +50,8 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 **Objective:** Practice decision-making in Python using the `if-else` statement to compare user input with a specific value.
 **Instructions**
 
-- Open the file lab2a.py and and fill in the required feilds in the comment section.
-- Use the input() function and ask the user to enter a 4 digit integer. Save this value in the vraiable `num`. For example:
+- Open the file lab2a.py and and fill in the required fields in the comment section.
+- Use the input() function and ask the user to enter a 4 digit integer. Save this value in the variable `num`. For example:
   ```python
       num = input("Enter a 4-digit number: ")
   ```
@@ -66,15 +66,37 @@ In investigation 1 you will learn how to take input from user, and compare it wi
       ```
 
 
-### lab2c.py
-#### String comparison
-- Fill in the required feilds in the comment section.
-- The script should include 2 variables `str1` and `str2`.
-- The value of `str1` and `str2` should both be a sentence inputted by the user.
-- Use `if`, `elif`, and `else` statments and the `len()` function to figure out which variable has the most charecters.
-- The final result should be: "--- is longer then ----!"
-- If they are equal then it should result in: "--- and --- are of equal legnth!"
+### lab2c.py - String comparison
+**Objective:** Practice using `if`, `elif`, and `else` statements in Python to compare the length of strings inputted by the user.
 
+**Instructions**
+
+- Open the file lab2c.py and fill in the required fields in the comment section..  
+- Create two variables named `str1` and `str2`.  
+- Assign each variable a sentence entered by the user using the `input()` function.  
+- Use the `len()` function to determine the length of each string.  
+- Use `if`, `elif`, and `else` statements to compare the lengths of `str1` and `str2`:  
+  - If `str1` is longer, print:  
+    ```
+    str1 is longer than str2!
+    ```  
+  - If `str2` is longer, print:  
+    ```
+    str2 is longer than str1!
+    ```  
+  - If they are equal in length, print:  
+    ```
+    str1 and str2 are of equal length!
+    ```
+  - Sample output:
+  ```
+#If the user inputs:  
+#`str1`: "Hello world"  
+#`str2`: "Python"  
+#Output should be:  
+str1 is longer than str2!
+
+```
 ## INVESTIGATION 2: USING COMMAND LINE ARGUMENTS
 So far you have been using the input() function to get user input. We can also provide input from command line as an argument after your script name on the command line. 
 In this section, you will learn how to pass an argument to your Python script, but this time, the argument will be passed when you execute your Python script from the terminal. In fact, your script name is also an argument to python interpreter. You can provide additional arguments. 
