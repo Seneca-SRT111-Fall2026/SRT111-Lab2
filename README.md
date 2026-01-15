@@ -36,25 +36,21 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 **Objective:** Practice using if statements in Python to make decisions based on user input, including type conversion, relational operators, and Boolean conditions.
 
 **Instructions**
-- Open the file task1.py and fill in the required fields in the comment section.
-- Create a variable named `x` and store a value entered by the user using the `input()` function.  
-    - The prompt should clearly ask for a number, for example:  
-      ```python
-      x = input("Please enter a number: ")
-      ```    
-    - **Note:** The `input()` function always returns a value of type `str` (string), even if the user types a number.  
-- Use the `type()` function to check the type of `x` and print the result. Observe that the type of `x` is `str`.  
-- Convert `x` to an integer using the `int()` function and update the variable `x` with this integer value using the statment:
-   ```python
-    x = int(x)
-   ```   
-- Write an if-statement to check if `x` is greater than or equal to 6.  
-    - If the condition is `True`, print:  
-      ```
-      x is greater than or equal to 6!
-      ```  
-- Write another if-statement that uses both relational and Boolean operators to check if `x` is greater than or equal to 4 **and** less than 12.  
-    - If this condition is `True`, print an appropriate message informing the user (for example: `"x is between 4 and 11 inclusive"`).  
+- Open the file `task1.py` and complete the required sections as indicated by the comments.
+- Create a variable named `x` and store a value entered by the user using the `input()` function.
+  - The prompt should clearly ask the user to enter a number, for example:
+    ```python
+    x = input("Please enter a number: ")
+    ```
+  - **Note:** The `input()` function always returns a value of type `str` (string), even if the user enters a number.
+- Use the `type()` function to check the type of `x` and print the result. You will observe that the type of `x` is `str`.
+- Convert `x` to an integer using the `int()` function and update the variable `x` using the statement:
+  ```python
+  x = int(x)
+ - Write an if statement to check if x is greater than or equal to 6. If the condition is True, print:
+   - x is greater than or equal to 6!
+ - Write another if statement that uses both relational and Boolean operators to check if x is greater than or equal to 4 and less than 12.
+   - If the condition is True, print an appropriate message (for example:"x is between 4 and 11 inclusive").
 
 ### Task2 - Using if-else statement
 **Objective:** Practice decision-making in Python using the `if-else` statement to compare user input with a specific value.
