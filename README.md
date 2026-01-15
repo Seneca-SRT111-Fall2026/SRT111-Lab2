@@ -77,9 +77,8 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 
 **Instructions**
 
-- Open the file lab2c.py and fill in the required fields in the comment section.
-- Create two variables named `str1` and `str2`.  
-- Assign each variable a sentence entered by the user using the `input()` function.  
+- Create a new file `task3.py` and add the comment section at the top.
+- Create two variables named `str1` and `str2` and assign them string values of your choice.
 - Use the `len()` function to determine the length of each string.  
 - Use `if`, `elif`, and `else` statements to compare the lengths of `str1` and `str2`:  
   - If `str1` is longer, print:  
@@ -94,79 +93,9 @@ In investigation 1 you will learn how to take input from user, and compare it wi
     ```python
     str1 and str2 are of equal length!
     ```
+ - Run the script from terminal to verify the output. 
 
-## INVESTIGATION 2: USING COMMAND LINE ARGUMENTS
-So far you have been using the `input()` function to get user input. We can also provide input from command line as an argument after your script name on the command line. 
-In this section, you will learn how to pass an argument to your Python script, but this time, the argument will be passed when you execute your Python script from the terminal. In fact, your script name is also an argument to Python interpreter. You can provide additional arguments. 
-
-In order to access command line arguments in Python, we will need to use a special Python object called `sys.argv` from the `sys module`. We can use the Python keyword `import` to load the `sys module` so that we can access it in our python script. `sys.argv` is a list object which is used to hold everything given at the command line, including the command itself.
-
-The `sys module` is one of the built-in modules that comes with the Python interpreter. By issuing the import sys statement at the top of a python script, it will load the code written by another person. Each 'library' (or 'module') that gets loaded will give us extra functionality and objects to our python script.
-
-### lab2d.py - Exploring Python's sys Module and Command-Line Arguments
- **Objective:** To explore Python's sys module and understand how command-line arguments are accessed and utilized in scripts.
-
-**Instructions**
-- Open the file lab2d.py and fill in the required fields in the comment section.
-- Import the sys module.
-- Next, add the following lines to your script.
-``` Python
-print(sys.version) # prints the version of the python currently in use.
-print(sys.platform) # prints the name of operating system.
-print(sys.argv) # prints the list of all arguments given at the command line when running our python script from terminal.
-print(len(sys.argv)) # Displays the number of command-line arguments provided by the user.
-```
-- Run your script using the command `python ./lab2d.py`
-- Observe the output. How many arguments were passed to python this time?  Only one, which is the script name. You will see the path to the script file in the output of  print(sys.argv).
-- Add the following lines to your script.
-  
-```Python
-print(sys.argv[0]) # prints the first argument, it is always the name of script.
-print(sys.argv[1]) # prints the second argument .
-print(sys.argv[2]) # prints the third argument.
-print(len(sys.argv)) # tells us the number of command line arguments the user provides from terminal.
-```
-- Now run the script using the following command: `python ./lab2d.py maija Maija`.
-- What do you observe? What did you learn?  This time we provided three arguments. The name of script is the first argument, second argument is maija and third argument is Maija.
-- Answer the following questions:
-    - What happens if you run the script without any additional arguments?
-    - Why is sys.argv[0] always the script name?
-    - How could you use command-line arguments in real-world applications?
-
- 
-### lab2e.py - Using Command-Line Arguments with Conditional Logic
-**Objective:** To practice using command-line arguments in Python and apply conditional logic to process user input.
-
-**Instructions**
-- Open lab2e.py and ensure the comment section is completed.
-- This script requires exactly two arguments after the script name: a name and an age.
-- Create a variable name and assign it sys.argv[1].
-- Create a variable age and assign it sys.argv[2].
-- Ensure the script checks if exactly two arguments are provided. If not, print an error message and exit.
-- The script should use if-else or if-elf or if-elif-else structure and should print the EXACT OUTPUT as shown below.
-
- **Sample Run 1:**
-  ```
-   python  ./lab2e.py Maija 20
-   output: Hi Maija, you are 20 years old and the script received exactly 2 arguments!
-  ```
-**Sample Run 2:**
-``` 
-python ./lab2e.py Maija 20 PRG101
-output: Hi Maija, you are 20 years old and the script received 3 arguments.
-```  
-**Sample Run 3:**
-```
-python ./lab2e.py Maija 20 PRG101 Seneca
-output: Hi Maija, you are 20 years old and the script received 4 arguments.
-```  
-**Sample Run 4:**
-```
-python ./lab2e.py
-output: The script requires atleast 2 arguments.
-```
-
-## INVESTIGATION 3: USING NESTED CONDITIONS
+## INVESTIGATION 2: USING NESTED CONDITIONS
 - Using nested conditions are helpfull im multiple situations in python.
 - Nested conditions are using statements like if and else multipule times on top of each other.
 - These can be used when you have to narrow down specifics or doing more complex conditions.
