@@ -96,12 +96,8 @@ In investigation 1 you will learn how to take input from user, and compare it wi
  - Run the script from terminal to verify the output. 
 
 ## INVESTIGATION 2: USING NESTED CONDITIONS
-- Using nested conditions are helpfull im multiple situations in python.
-- Nested conditions are using statements like if and else multipule times on top of each other.
-- These can be used when you have to narrow down specifics or doing more complex conditions.
-- In investigation 3 you will learn how to use nested conditions and will practice using them.
-- example:
-  -  Copy the following code snippet in Jupyter lab and run it to observe its output. You can also copy this code in lab2f.py, run and observe the output and then delete this code form lab2f.py becasue in this file, you will be doing another example.
+Using nested conditions are helpfull im multiple situations in python. Nested conditions are using statements like `if` and `else` multipule times on top of each other.These can be used when you have to narrow down specifics or doing more complex conditions. In investigation 2 you will learn how to use nested conditions.
+-  Copy the following code snippet in Jupyter lab and run it to observe its output.
 ``` Python
 x=3
 if x < 6:
@@ -109,14 +105,14 @@ if x < 6:
         print("x is less than 6 and x is greater than 2.")
 ```
 
-### lab2f.py - Income Tax Calculator with nested conditions
+### Task4 - Income Tax Calculator with nested conditions
 **Objective:** Practice using nested `if`, `elif`, and `else` statements in Python to apply conditional logic based on multiple variables.
 
 ![incomeTaxExample](https://github.com/user-attachments/assets/e7325ff1-a90f-445d-b119-06b95cc103c6)
 
 **Instructions:**
 
-- Open lab2f.py and ensure the comment section is completed.
+- Create a new file `task4.py` and add the comment section at the top.
 - Create a program that calculates tax based on the table in the image above.
 - The script should include a variable `income`. The value of `income` should be entered by the user and should be a number (preferably in the thousands).
 - Convert the input to an integer or float so it can be used in numeric comparisons.
@@ -126,12 +122,12 @@ if x < 6:
 - Test your program with multiple different combinations of income and marital status to ensure it works correctly.
 
 
-## INVESTIGATION 4: USING LOOPS
+## INVESTIGATION 3: USING LOOPS
 Loops are used in all programming languages to repeat code under certain conditions.  
 A loop runs as long as its condition (expression) evaluates to `True`.  
 When the condition becomes `False`, the program continues with the next line after the loop.
 
-In Investigation 4, you will learn about the two main types of loops in Python:  
+In Investigation 3, you will learn about the two main types of loops in Python:  
 - `while` loop  
 - `for` loop  
 
@@ -141,7 +137,6 @@ In Python, a `while` loop is used to execute a block of statements repeatedly **
 A `while` loop can use the same type of Boolean expressions found in `if` statements.  
 While the condition remains `True`, all indented statements in the loop body will run repeatedly.  
 When the condition becomes `False`, the loop stops.
-
 **Note:** In Python, all statements indented by the same number of spaces after a control structure are considered part of the same block.
 
 **Syntax:**
