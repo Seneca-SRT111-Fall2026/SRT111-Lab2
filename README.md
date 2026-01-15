@@ -51,7 +51,7 @@ In investigation 1 you will learn how to take input from user, and compare it wi
    - x is greater than or equal to 6!
  - Write another if statement that uses both relational and Boolean operators to check if x is greater than or equal to 4 and less than 12.
    - If the condition is True, print an appropriate message (for example:"x is between 4 and 11 inclusive").
-
+ - Run the script from terminal to verify the output. 
 ### Task2 - Using if-else statement
 **Objective:** Practice decision-making in Python using the `if-else` statement to compare user input with a specific value.
 **Instructions: **
@@ -70,6 +70,7 @@ In investigation 1 you will learn how to take input from user, and compare it wi
       ```
       Not quite right!
       ```
+ - Run the script from terminal to verify the output. 
 
 
 ### Task3 - String comparison
