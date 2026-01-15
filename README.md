@@ -158,17 +158,18 @@ while count != 5:  # condition (evaluates to True or False)
 print('Loop has ended')  # runs after the condition becomes False
 ```
 
-### lab2g.py - Understanding While Loops in Python
+### Task5 - Understanding While Loops in Python
 **Objective:** To explore counter-controlled and event-driven while loops in Python and understand common loop-related errors such as the off-by-one error.
 
 **Instructions**
-- Fill in the required fields in comment section
-- Copy the above code block in lab2g.py.
+- Create a new file `task5.py` and add the comment section at the top.
+- Copy the above code block in task5.py.
 - Change the value of count to 1 and then run the program to see how many times the loop runs.
 - Next change the while condition to `count < 5 ` and then run the program to see how many times the loop runs.
 - Next change the condition to `count <= 5` and then run the program to see how many times the loop runs.
 - What did you observe in all of the above examples when you change the value of loop variable or the expression. It is important that you are well aware of initial value of loop variable and the condition in the loop expression to know exactly how many times the loop will be executed.
-- Search on the internet about "What is off by 1 error in loops"?
+- In the word document, under `Task5` write your reflections of this task.
+
 
 Next, we will do a more complex but really useful example.
 In Python, we often use while loop to see if the user entered the required value. We keep asking the user for a value until the user enters the correct value. This is a scenario-driven by an event rather than driven by a counter, because you do not know how many times the user will enter the incorrect value before the user enters the correct value. See the example below:
@@ -183,11 +184,11 @@ print("You got it right!") # this statement will be executed when loop has termi
 
 ```
 
-### lab2h.py - Validating User Input with a While Loop
+### Task6.py - Validating User Input with a While Loop
 **Objective:** To use a while loop to repeatedly prompt the user for a 4-digit PIN until the correct value is entered.
 
 **Instructions:**
-- Open lab2h.py and fill in the required fields in the comment section.
+- Create a new file `task6.py` and add the comment section at the top.
 - Create a variable called `pin`. Use the `input()` function to ask the user to enter a 4-digit PIN.
 - Use a while loop to keep asking for the PIN until the user enters the correct PIN `1234`.
 - Add a validation check to ensure the user enters exactly 4 digits and that all characters are numeric.
@@ -205,11 +206,11 @@ Correct PIN, You can enter!
 ```
 Keep practicing, attempt this next exercise now!
 
-### lab2i.py - Using break and continue in Loops
+### Task7 - Using break and continue in Loops
 **Objective:** To practice using break and continue statements in Python loops to control flow based on user input.
 
 **Instructions:**
-- Open lab2i.py and fill in the required fields in the comment section.
+- Create a new file `task7.py` and add the comment section at the top.
 - Write a program that repeatedly prompts the user to input a number.
 - Based on the input, the program should:
     -  **Negative Number**: Print "Invalid number." and prompt again (use continue).
@@ -252,11 +253,11 @@ for i in range(5):
 The range(5) function generates a sequence of numbers from 0 to 4 (inclusive of 0, exclusive of 5).
 
 
-### lab2j.py - Summing Even Numbers with a For Loop
+### Task8- Summing Even Numbers with a For Loop
 **Objective:** To use a for loop and conditional logic to calculate the sum of all even numbers from 1 to 100 (inclusive).
 
 **Instructions**
-- Open lab2j.py and fill in the required fields in the comment section.
+- Create a new file `task8.py` and add the comment section at the top.
 - Write a Python program that.
    - Uses a for loop to iterate over the numbers from 1 to 100 (inclusive).
    - Checks if each number is even using the modulo operator (%).
@@ -267,15 +268,14 @@ The range(5) function generates a sequence of numbers from 0 to 4 (inclusive of 
 ## Lab 2 Sign-Off
 - Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackbaord*.
 - The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
-    - lab2a.py
-    - lab2b.py
-    - lab2c.py
-    - lab2d.py
-    - lab2e.py
-    - lab2f.py
-    - lab2g.py
-    - lab2h.py
-    - lab2i.py
-    - lab2j.py
+    - task1.py
+    - task2.py
+    - task3.py
+    - task4.py
+    - task5.py
+    - task6.py
+    - task7.py
+    - task8.py
+
 - Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
 - Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as "**Satisfactory**" with a grade of 0, provided the work is satisfactory. 
