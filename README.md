@@ -1,5 +1,5 @@
 # Lab2
-In this lab, you will create **ten simple Python scripts**. All scripts must be written in **GitHub Codespaces**.
+In this lab, you will create **eight simple Python scripts**. All scripts must be written in **GitHub Codespaces**.
 This lab focuses on practicing **decision-making** and **iteration** in Python, including:  
 - `if` statements  
 - `for` loops  
