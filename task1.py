@@ -4,6 +4,6 @@
 # Author:
 # Date:
 # Purpose: Create a variable, check its type and use a condition to check the value of the variable.
-# Usage: ./lab2a.py
+# Usage: ./task1.py
 
 # TO DO 1: Follow the instructions given in README.md file
