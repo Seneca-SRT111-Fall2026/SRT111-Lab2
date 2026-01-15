@@ -14,7 +14,6 @@ This lab focuses on practicing **decision-making** and **iteration** in Python, 
 - Recognize and avoid common programming pitfalls
 - Document and present code execution results through screenshots and organized submission.
  
-
 # Submission Instructions
 For each task:
 1. **Write the script** in Codespaces.  
@@ -54,8 +53,8 @@ In investigation 1 you will learn how to take input from user, and compare it wi
  - Run the script from terminal to verify the output. 
 ### Task2 - Using if-else statement
 **Objective:** Practice decision-making in Python using the `if-else` statement to compare user input with a specific value.
-**Instructions: **
 
+**Instructions:**
 - Create a new file `task2.py` and add the comment section at the top.
 - Use the input() function and ask the user to enter a 4-digit integer. Save this value in the variable `num`. For example:
   ```python
