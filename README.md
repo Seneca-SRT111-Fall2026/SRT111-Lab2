@@ -23,7 +23,7 @@ For each task:
    - Your **code** in the editor.  
    - The **terminal output**, including your **username** visible in the terminal.  
 4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
-   - Example: **Lab2a**, **Lab2b**, **Lab2c**, etc.  
+   - Example: **Task1**, **Task2**, **Task3**, etc.  
 5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **Seneca username**, for example salim123.pdf
 6. **Submit the PDF file** as your final lab submission on Blackbaord.
 
@@ -32,11 +32,11 @@ For each task:
 An IF statement is a decision statement that executes or does not execute a section of code based on whether the condition is True or False.
 In investigation 1 you will learn how to take input from user, and compare it with other values.
 
-### lab2a.py - Simple if statement
+### Task1 - Simple if statement
 **Objective:** Practice using if statements in Python to make decisions based on user input, including type conversion, relational operators, and Boolean conditions.
 
 **Instructions**
-- Open the file lab2a.py and fill in the required fields in the comment section.
+- Open the file task1.py and fill in the required fields in the comment section.
 - Create a variable named `x` and store a value entered by the user using the `input()` function.  
     - The prompt should clearly ask for a number, for example:  
       ```python
@@ -56,11 +56,11 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 - Write another if-statement that uses both relational and Boolean operators to check if `x` is greater than or equal to 4 **and** less than 12.  
     - If this condition is `True`, print an appropriate message informing the user (for example: `"x is between 4 and 11 inclusive"`).  
 
-### lab2b.py - Using if-else statement
+### Task2 - Using if-else statement
 **Objective:** Practice decision-making in Python using the `if-else` statement to compare user input with a specific value.
 **Instructions: **
 
-- Open the file lab2b.py and fill in the required fields in the comment section.
+- Create a new file `task2.py` and add the comment section at the top.
 - Use the input() function and ask the user to enter a 4-digit integer. Save this value in the variable `num`. For example:
   ```python
       num = input("Enter a 4-digit number: ")
@@ -76,7 +76,7 @@ In investigation 1 you will learn how to take input from user, and compare it wi
       ```
 
 
-### lab2c.py - String comparison
+### Task3 - String comparison
 **Objective:** Practice using `if`, `elif`, and `else` statements in Python to compare the length of strings entered by the user.
 
 **Instructions**
