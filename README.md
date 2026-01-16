@@ -34,7 +34,7 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 
 **Instructions**
 - Open the file `task1.py` and fill in the comments section.
-- Create a variable named `x` and store a value entered by the user using the `input()` function.
+- Create a variable named `x` and store in it a value entered by the user using the `input()` function.
   - The prompt should clearly ask the user to enter a number, for example:
     ```python
     x = input("Please enter a number: ")
