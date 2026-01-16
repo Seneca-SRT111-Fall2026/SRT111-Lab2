@@ -33,7 +33,7 @@ In investigation 1 you will learn how to take input from user, and compare it wi
 **Objective:** Practice using if statements in Python to make decisions based on user input, including type conversion, relational operators, and Boolean conditions.
 
 **Instructions**
-- Open the file `task1.py` and complete the required sections as indicated by the comments.
+- Open the file `task1.py` and fill in the comments section.
 - Create a variable named `x` and store a value entered by the user using the `input()` function.
   - The prompt should clearly ask the user to enter a number, for example:
     ```python
