@@ -172,7 +172,7 @@ print('Loop has ended')  # runs after the condition becomes False
 Next, we will do a more complex but really useful example.
 In Python, we often use while loop to see if the user entered the required value. We keep asking the user for a value until the user enters the correct value. This is a scenario-driven by an event rather than driven by a counter, because you do not know how many times the user will enter the incorrect value before the user enters the correct value. See the example below:
 
-```Python
+```python
 guess = 5
 number = int(input("Guess what number less than 10 I am thinking of?"))
 while number != guess:  # loop condition 
