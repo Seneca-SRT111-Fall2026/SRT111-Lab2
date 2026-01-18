@@ -182,7 +182,7 @@ print("You got it right!") # this statement will be executed when loop has termi
 
 ```
 
-### Task6.py - Validating User Input with a While Loop
+### Task6 - Validating User Input with a While Loop
 **Objective:** To use a while loop to repeatedly prompt the user for a 4-digit PIN until the correct value is entered.
 
 **Instructions:**
@@ -251,7 +251,7 @@ for i in range(5):
 The range(5) function generates a sequence of numbers from 0 to 4 (inclusive of 0, exclusive of 5).
 
 
-### Task8- Summing Even Numbers with a For Loop
+### Task8 - Summing Even Numbers with a For Loop
 **Objective:** To use a for loop and conditional logic to calculate the sum of all even numbers from 1 to 100 (inclusive).
 
 **Instructions**
