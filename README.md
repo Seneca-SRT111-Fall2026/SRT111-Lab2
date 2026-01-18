@@ -94,7 +94,7 @@ In investigation 1 you will learn how to take input from user, and compare it wi
  - Run the script from terminal to verify the output. 
 
 ## INVESTIGATION 2: USING NESTED CONDITIONS
-Using nested conditions are helpfull im multiple situations in python. Nested conditions are using statements like `if` and `else` multipule times on top of each other.These can be used when you have to narrow down specifics or doing more complex conditions. In investigation 2 you will learn how to use nested conditions.
+Using nested conditions are helpful im multiple situations in python. Nested conditions are using statements like `if` and `else` multiple times on top of each other.These can be used when you have to narrow down specifics or doing more complex conditions. In investigation 2 you will learn how to use nested conditions.
 -  Copy the following code snippet in Jupyter lab and run it to observe its output.
 ``` Python
 x=3
