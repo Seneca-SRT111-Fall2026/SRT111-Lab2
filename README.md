@@ -22,7 +22,7 @@ For each task:
 4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
    - Example: **Task1**, **Task2**, **Task3**, etc.  
 5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **Seneca username**, for example salim123.pdf
-6. **Submit the PDF file** as your final lab submission on Blackbaord.
+6. **Submit the PDF file** as your final lab submission on Blackboard.
 
 
 ## INVESTIGATION 1: USING IF-ELSE AND input() FUNCTION
@@ -264,7 +264,7 @@ The range(5) function generates a sequence of numbers from 0 to 4 (inclusive of 
 
 
 ## Lab 2 Sign-Off
-- Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackbaord*.
+- Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackboard*.
 - The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
     - task1.py
     - task2.py
