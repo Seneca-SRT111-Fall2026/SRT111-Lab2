@@ -209,16 +209,16 @@ The tasks in this section focus on loop constructs, input validation, and loop c
   - all characters are digits
 - Display appropriate messages based on the input.
 - Your output should look like this:
-```
-Please type in your PIN: 0000
-Incorrect...try again
+  ```text
+  Please type in your PIN: 0000
+  Incorrect...try again
 
-Please type in your PIN: 199
-Incorrect...enter a 4 digit number
+  Please type in your PIN: 199
+  Incorrect...enter a 4 digit number
 
-Please type in your PIN: 1234
-Correct PIN, You can enter!
-```
+  Please type in your PIN: 1234
+  Correct PIN, You can enter!
+  ```
 - Run the program and test it with several different inputs.
   
 ### Task7 - Using break and continue in Loops
