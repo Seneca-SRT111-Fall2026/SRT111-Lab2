@@ -121,12 +121,12 @@ An IF statement is a decision statement that executes or does not execute a sect
 
 
 ### Task3 - String comparison
-**Objective:** Practice using `if`, `elif`, and `else` statements in Python to compare the length of strings entered by the user.
+**Objective:** Practice using `if`, `elif`, and `else` statements to compare the lengths of two strings.
 
 **Instructions**
 
-- Create a new file `task3.py` and add the comment section at the top.
-- Create two variables named `str1` and `str2` and assign them string values of your choice.
+- Create a new file `task3.py`.
+- Use the `input()` function to ask the user to enter two strings and store them in variables named `str1` and `str2`.
 - Use the `len()` function to determine the length of each string.  
 - Use `if`, `elif`, and `else` statements to compare the lengths of `str1` and `str2`:  
   - If `str1` is longer, print:  
