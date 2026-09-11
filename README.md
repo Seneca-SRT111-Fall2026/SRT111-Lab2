@@ -21,7 +21,7 @@ This lab focuses on the following Python concepts:
 - `while` loops
 - `break` and `continue`
 - `for` loops and accumulation patterns
-- 
+  
 ## Academic Integrity and Use of AI
 
 This lab is intended to assess your individual understanding of Python programming.
