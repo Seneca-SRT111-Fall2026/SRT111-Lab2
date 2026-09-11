@@ -225,9 +225,12 @@ Correct PIN, You can enter!
 **Objective:** To practice using break and continue statements in Python loops to control flow based on user input.
 
 **Instructions:**
-- Create a new file `task7.py` and add the comment section at the top.
-- Write a program that repeatedly prompts the user to input a number.
-- Based on the input, the program should:
+- Create a new file `task7.py`.
+- Import the `math` module.
+- Use a loop that repeatedly prompts the user to enter a number.
+- Process the input as follows:
+  - If the number is negative:
+  - If the number is `0`:
     -  **Negative Number**: Print "Invalid number." and prompt again (use continue).
     -  **Zero**: Print "Exiting ..." and terminate the loop (use break).
     - **Non-Negative Number**: Calculate and print the square root of the number
