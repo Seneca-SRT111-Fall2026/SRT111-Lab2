@@ -178,7 +178,12 @@ Students who do not demonstrate their work during the lab period will not receiv
 
 # Part B - Take-Home Lab [50% marks]
 Complete the following tasks independently after the scheduled lab using VS Code.
-For each task:
+Before You Begin:
+- Open your local Git repository **`SRT111F2026`** on your computer.
+- Create a new folder named **`Lab02`** inside the repository.
+- Open the **`Lab02`** folder in VS Code.
+- Create all Python files for this lab (`task5.py`, `task6.py`, `task7.py`, and `task8.py`) inside the **`Lab02`** folder.
+For Each Task
 - take screenshots showing both your code and program output.
 - Insert the screenshots into your submission document under the appropriate task heading
 
@@ -294,7 +299,7 @@ Answer the following questions in complete sentences:
 ---
 
 ## Part B Sign-Off
-- Push your Lab02 folder to GitHub repo .
+- commit and push your Lab02 folder to GitHub repo `SRT111F2026`.
 - Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackbaord*.
 - Your PDF must include:
     - Task 5 screenshot(s)
