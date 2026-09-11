@@ -7,31 +7,35 @@
 <strong>Percentage Towards Final Grade: 2% </strong>  
 
 </div>
-In this lab, you will create and execute several simple Python scripts to practice fundamental programming concepts. The lab is divided into two parts:
+In this lab, you will design, implement, and test Python programs that use decision-making and iteration to solve simple problems.
 
+The lab is divided into two components:
 - **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading).
 - **Part B: Take-Home Lab** (must be completed independently after class using a local installation of VS Code).
-This lab focuses on practicing **decision-making** and **iteration** in Python, including:  
-- `if` statements  
-- `for` loops  
+- 
+This lab focuses on the following Python concepts:
+- `if`, `elif`, and `else` statements
+- Nested conditional statements
+- Input validation
 - `while` loops
-
+- `break` and `continue`
+- `for` loops and accumulation patterns
+- 
 ## Academic Integrity and Use of AI
 
 This lab is intended to assess your individual understanding of Python programming.
-You may use AI tools (e.g., ChatGPT, Copilot, Gemini) to help explain concepts or error messages. However, you **must not copy and paste lab questions or obtain complete solutions from AI tools**.
+You may use AI tools (e.g., ChatGPT, Copilot, Gemini) to help explain concepts, syntax, or error messages. However, all submitted code must be your own work, and you must be able to explain your solution if asked by the professor.
 
-All submitted code must be your own work. You must be able to explain your solution to the professor if requested.
-
-Submitting AI-generated, copied, or shared solutions may result in a grade of zero and may be handled according to the College's Academic Integrity Policy.
+Submitting copied, shared, or AI-generated solutions as your own work may result in a grade of zero and may be handled according to the College Academic Integrity Policy.
 
 # Lab Objectives
-- Develop understanding in handling user input and validating data
-- Apply control flow structures to solve real-world problems
-- Master loop constructs for both counter-driven and event-driven tasks
-- Implement loop control mechanisms using break and continue
-- Document and present code execution results through screenshots and organized submission.
- 
+By the end of this lab, you will be able to:
+- Accept, process, and validate user input.
+- Use conditional statements (`if`, `elif`, `else`) to make decisions.
+- Implement `while` and `for` loops to solve programming problems.
+- Use `break` and `continue` to control loop execution.
+- Document and submit program output using screenshots and a PDF report.
+- 
 ## Submission Instructions
 
 ### Part A: In-Class Lab
@@ -44,20 +48,19 @@ Submitting AI-generated, copied, or shared solutions may result in a grade of ze
 ### Part B: Take-Home Lab
 
 For each task:
-1. Write and save your Python script in VS Code.  
-2. Run the script using the VS Code terminal
+1. Create and run the required Python script.  
 3. Take a screenshot that clearly shows:  
-   - Your code in the editor.  
-   - The terminal output, including your username visible in the terminal.  
-4. Insert the screenshots into a Word document under the heading that matches the task name:  
-   - Example: **Task5**, **Task6**, **Task7**, etc.
-5. Answer the reflection questions at the end of the lab.
+   - The code in the editor.  
+   - The program output in the terminal.
+   - Your Seneca username visible in the terminal.
+4. Insert the screenshots into a Word document under under the appropriate task heading.  
+5. Answer any reflection questions included in the lab.
 6. Convert the Word document to PDF.  Name the PDF file using your Seneca usernmae `yourusername.pdf`.
-7. Submit the PDF file as your final lab submission on Blackboard.
+7. Submit the PDF to Blackboard.
 8. Each task carries 1.25 marks.
 
  ## Required File Header
-For every Python file created in this lab (task1.py, task2.py, etc.), include the following comment block at the top of the file:
+For every Python file submitted in this lab (task1.py, task2.py, etc.), include the following comment block at the top of the file:
 ```Python
 # Author: Your Name
 # Date: YYYY-MM-DD
@@ -69,30 +72,35 @@ Update the Purpose and Usage lines appropriately for each task.
 ---
 # Part A - In-Class Lab [50% marks]
 
-## INVESTIGATION 1: USING IF-ELSE AND input() FUNCTION
-An IF statement is a decision statement that executes or does not execute a section of code based on whether the condition is True or False.
-In investigation 1 you will learn how to take input from user, and compare it with other values.
-
 ### Task1 - Simple if statement
 **Objective:** Practice using if statements in Python to make decisions based on user input, including type conversion, relational operators, and Boolean conditions.
 
+An IF statement is a decision statement that executes or does not execute a section of code based on whether the condition is True or False.
+
 **Instructions**
-- Open the file `task1.py` and fill in the comments section.
-- Create a variable named `x` and store in it a value entered by the user using the `input()` function.
-  - The prompt should clearly ask the user to enter a number, for example:
-    ```python
-    x = input("Please enter a number: ")
-    ```
-  - **Note:** The `input()` function always returns a value of type `str` (string), even if the user enters a number.
-- Use the `type()` function to check the type of `x` and print the result. You will observe that the type of `x` is `str`.
-- Convert `x` to an integer using the `int()` function and update the variable `x` using the statement:
+- Create a file named `task1.py`.
+- Using `input()`, ask the user to enter a number and store it in a variable named `number.
   ```python
-  x = int(x)
- - Write an if statement to check if x is greater than or equal to 6. If the condition is True, print:
-   - x is greater than or equal to 6!
- - Write another if statement that uses both relational and Boolean operators to check if x is greater than or equal to 4 and less than 12.
-   - If the condition is True, print an appropriate message (for example:"x is between 4 and 11 inclusive").
- - Run the script from terminal to verify the output. 
+  x = input("Please enter a number: ")
+  ```
+  - **Note:** The `input()` function always returns a value of type `str` (string), even if the user enters a number.
+- Use the `type()` function to display the type of the value entered. Observe that `input()` always returns a string (`str`).
+- Convert `number` to an integer using:
+```python
+ number = int(number)
+```
+- Write an if statement to check if x is greater than or equal to 6. If the condition is True, print:
+``` text
+x is greater than or equal to 6!
+```
+- Write a second `if` statement that checks whether `number` is greater than or equal to `4` and less than `12. If the condition is True, print:
+- Run the script from terminal to verify the output.
+``` text
+number is between 4 and 11
+```
+- Run the program from the terminal and verify the output.
+
+ - 
 ### Task2 - Using if-else statement
 **Objective:** Practice decision-making in Python using the `if-else` statement to compare user input with a specific value.
 
