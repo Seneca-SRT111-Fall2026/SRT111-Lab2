@@ -49,7 +49,7 @@ By the end of this lab, you will be able to:
 ### Part B: Take-Home Lab
 
 For each task:
-1. Create and run the required Python script.  
+1. Create and run the required Python script in VS Code.  
 3. Take a screenshot that clearly shows:  
    - The code in the editor.  
    - The program output in the terminal.
@@ -143,31 +143,35 @@ An IF statement is a decision statement that executes or does not execute a sect
     ```
  - Run the script from terminal to verify the output. 
 
-## INVESTIGATION 2: USING NESTED CONDITIONS
-Using nested conditions are helpful im multiple situations in python. Nested conditions are using statements like `if` and `else` multiple times on top of each other.These can be used when you have to narrow down specifics or doing more complex conditions. In investigation 2 you will learn how to use nested conditions.
--  Copy the following code snippet in Jupyter lab and run it to observe its output.
-``` Python
-x=3
-if x < 6:
-    if x >2: # this if is nested in the above if
-        print("x is less than 6 and x is greater than 2.")
-```
 
 ### Task4 - Income Tax Calculator with nested conditions
-**Objective:** Practice using nested `if`, `elif`, and `else` statements in Python to apply conditional logic based on multiple variables.
+**Objective:** Practice using nested `if`, `elif`, and `else` statements to make decisions based on more than one condition.
 
 ![incomeTaxExample](https://github.com/user-attachments/assets/e7325ff1-a90f-445d-b119-06b95cc103c6)
 
 **Instructions:**
 
-- Create a new file `task4.py` and add the comment section at the top.
-- Create a program that calculates tax based on the table in the image above.
-- The script should include a variable `income`. The value of `income` should be entered by the user and should be a number (preferably in the thousands).
-- Convert the input to an integer or float so it can be used in numeric comparisons.
-- Include a variable `status`, prompt the user to enter either `"single"` or `"married"`.
-- Use **nested** `if`, `elif`, and `else` statements to model the logic shown in the tax chart.  
-- Use **relational operators** to compare `income` and `status` with the threshold values in the table.  
-- Test your program with multiple different combinations of income and marital status to ensure it works correctly.
+- Create a new file `task4.py`.
+- Prompt the user to enter:
+  - their annual income
+  - their marital status (single or married)
+- Use nested if, elif, and else statements to determine the appropriate tax rate from the table provided. If the table does not render properly, please use the table from slides of week3.  
+- Display the tax rate that applies to the user.  
+- Test your program using:
+  - at least one single taxpayer
+  - at least one married taxpayer
+  - incomes from different tax brackets
+
+# Part B - Take-Home Lab [50% marks]
+Complete the following tasks independently after the scheduled lab using VS Code.
+For each task:
+- take screenshots showing both your code and program output.
+- Insert the screenshots into your submission document under the appropriate task heading
+
+Failure to include your username in the terminal screenshot may result in a grade of zero for that task.
+Once you complete all the tasks, push your work to GitHub.
+
+The tasks in this section focus on loop constructs, input validation, and loop control techniques in Python.
 
 
 ## INVESTIGATION 3: USING LOOPS
