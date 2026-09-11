@@ -110,13 +110,13 @@ An IF statement is a decision statement that executes or does not execute a sect
   ```
 - Write an `if-else` statement to check whether `num` is equal to `1984`.  
   - If `True`, print:  
-  ``` text
-  George Orwell
-  ```  
+    ``` text
+    George Orwell
+    ```  
   - Otherwise, print:  
-  ```text
-  Not quite right!
-  ```
+    ```text
+    Not quite right!
+    ```
  - Run the program from the terminal and verify the output. 
 
 
