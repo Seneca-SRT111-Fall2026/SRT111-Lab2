@@ -1,9 +1,29 @@
-# Lab2
-In this lab, you will create **eight simple Python scripts**. All scripts must be written in **GitHub Codespaces**.
+<div align="center">
+
+<h1>SRT111 Lab 2 - Fall 2026</h1>
+
+<strong>Prepared by:</strong> Tiayyba Riaz  
+<strong>Total Marks: 10 </strong>  
+<strong>Percentage Towards Final Grade: 2% </strong>  
+
+</div>
+In this lab, you will create and execute several simple Python scripts to practice fundamental programming concepts. The lab is divided into two parts:
+
+- **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading).
+- **Part B: Take-Home Lab** (must be completed independently after class using a local installation of VS Code).
 This lab focuses on practicing **decision-making** and **iteration** in Python, including:  
 - `if` statements  
 - `for` loops  
 - `while` loops
+
+## Academic Integrity and Use of AI
+
+This lab is intended to assess your individual understanding of Python programming.
+You may use AI tools (e.g., ChatGPT, Copilot, Gemini) to help explain concepts or error messages. However, you **must not copy and paste lab questions or obtain complete solutions from AI tools**.
+
+All submitted code must be your own work. You must be able to explain your solution to the professor if requested.
+
+Submitting AI-generated, copied, or shared solutions may result in a grade of zero and may be handled according to the College's Academic Integrity Policy.
 
 # Lab Objectives
 - Develop understanding in handling user input and validating data
@@ -12,18 +32,42 @@ This lab focuses on practicing **decision-making** and **iteration** in Python, 
 - Implement loop control mechanisms using break and continue
 - Document and present code execution results through screenshots and organized submission.
  
-# Submission Instructions
-For each task:
-1. **Write the script** in Codespaces.  
-2. **Run the script** from the **terminal**.  
-3. **Take a screenshot** that clearly shows:  
-   - Your **code** in the editor.  
-   - The **terminal output**, including your **username** visible in the terminal.  
-4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
-   - Example: **Task1**, **Task2**, **Task3**, etc.  
-5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **Seneca username**, for example., salim123.pdf
-6. **Submit the PDF file** as your final lab submission on Blackboard.
+## Submission Instructions
 
+### Part A: In-Class Lab
+- Complete all assigned in-class tasks during your scheduled lab.
+- Demonstrate your completed work to the professor before leaving the lab.
+- The professor may ask you to explain portions of your code.
+- No PDF submission is required for Part A unless otherwise instructed.
+- Each task carries 1.25 marks.
+
+### Part B: Take-Home Lab
+
+For each task:
+1. Write and save your Python script in VS Code.  
+2. Run the script using the VS Code terminal
+3. Take a screenshot that clearly shows:  
+   - Your code in the editor.  
+   - The terminal output, including your username visible in the terminal.  
+4. Insert the screenshots into a Word document under the heading that matches the task name:  
+   - Example: **Task5**, **Task6**, **Task7**, etc.
+5. Answer the reflection questions at the end of the lab.
+6. Convert the Word document to PDF.  Name the PDF file using your Seneca usernmae `yourusername.pdf`.
+7. Submit the PDF file as your final lab submission on Blackboard.
+8. Each task carries 1.25 marks.
+
+ ## Required File Header
+For every Python file created in this lab (task1.py, task2.py, etc.), include the following comment block at the top of the file:
+```Python
+# Author: Your Name
+# Date: YYYY-MM-DD
+# Purpose: Brief description of what the program does.
+# Usage: python ./task1.py
+```
+Update the Purpose and Usage lines appropriately for each task.
+
+---
+# Part A - In-Class Lab [50% marks]
 
 ## INVESTIGATION 1: USING IF-ELSE AND input() FUNCTION
 An IF statement is a decision statement that executes or does not execute a section of code based on whether the condition is True or False.
