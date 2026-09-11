@@ -12,7 +12,8 @@ In this lab, you will design, implement, and test Python programs that use decis
 The lab is divided into two components:
 - **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading).
 - **Part B: Take-Home Lab** (must be completed independently after class using a local installation of VS Code).
-- 
+
+  
 This lab focuses on the following Python concepts:
 - `if`, `elif`, and `else` statements
 - Nested conditional statements
