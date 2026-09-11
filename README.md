@@ -10,7 +10,7 @@
 In this lab, you will design, implement, and test Python programs that use decision-making and iteration to solve simple problems.
 
 The lab is divided into two components:
-- **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading).
+- **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading. This part can be done in Jupyter Lab or VS Code).
 - **Part B: Take-Home Lab** (must be completed independently after class using a local installation of VS Code).
 
   
@@ -294,7 +294,7 @@ Answer the following questions in complete sentences:
 ---
 
 ## Part B Sign-Off
-- Push your Lab01 folder to GitHub.
+- Push your Lab02 folder to GitHub repo .
 - Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackbaord*.
 - Your PDF must include:
     - Task 5 screenshot(s)
@@ -303,6 +303,4 @@ Answer the following questions in complete sentences:
     - Task 8 screenshot(s)
     - Reflection questions
 - Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
-- Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as "**Satisfactory**" with a grade of 0, provided the work is satisfactory. 
-- Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
-- Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as "**Satisfactory**" with a grade of 0, provided the work is satisfactory. 
+- Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as "**Satisfactory**" with a grade of 0, provided the work is satisfactory.
