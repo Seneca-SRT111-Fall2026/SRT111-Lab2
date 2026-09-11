@@ -196,41 +196,31 @@ The tasks in this section focus on loop constructs, input validation, and loop c
   - How did changing the starting value affect the output?
   - What was the difference between using `< 5` and `<= 5`?
 
-Next, we will do a more complex but really useful example.
-In Python, we often use while loop to see if the user entered the required value. We keep asking the user for a value until the user enters the correct value. This is a scenario-driven by an event rather than driven by a counter, because you do not know how many times the user will enter the incorrect value before the user enters the correct value. See the example below:
-
-```python
-guess = 5
-number = int(input("Guess what number less than 10 I am thinking of?"))
-while number != guess:  # loop condition 
-  print("incorrect guess, try again...")
-  number = int(input("Guess what number less than 10 I am thinking of?")) # keep taking input from user until the user enters the correct guess.
-print("You got it right!") # this statement will be executed when loop has terminated which will only happen when the user enters the number 5.
-
-```
 
 ### Task6 - Validating User Input with a While Loop
-**Objective:** To use a while loop to repeatedly prompt the user for a 4-digit PIN until the correct value is entered.
+**Objective:** Use a `while` loop to repeatedly prompt the user until a valid PIN is entered.
 
 **Instructions:**
-- Create a new file `task6.py` and add the comment section at the top.
-- Create a variable called `pin`. Use the `input()` function to ask the user to enter a 4-digit PIN.
-- Use a while loop to keep asking for the PIN until the user enters the correct PIN `1234`.
-- Add a validation check to ensure the user enters exactly 4 digits and that all characters are numeric.
+- Create a new file `task6.py`.
+- Ask the user to enter a 4-digit PIN and store the value in a variable named `pin`.
+- Use a `while` loop to continue prompting the user until the correct PIN (`1234`) is entered.
+- Before checking whether the PIN is correct, validate that:
+  - the input contains exactly 4 characters
+  - all characters are digits
+- Display appropriate messages based on the input.
 - Your output should look like this:
 ```
 Please type in your PIN: 0000
 Incorrect...try again
 
 Please type in your PIN: 199
-
 Incorrect...enter a 4 digit number
 
 Please type in your PIN: 1234
 Correct PIN, You can enter!
 ```
-Keep practicing, attempt this next exercise now!
-
+- Run the program and test it with several different inputs.
+  
 ### Task7 - Using break and continue in Loops
 **Objective:** To practice using break and continue statements in Python loops to control flow based on user input.
 
