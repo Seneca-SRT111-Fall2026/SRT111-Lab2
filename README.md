@@ -93,14 +93,12 @@ An IF statement is a decision statement that executes or does not execute a sect
 ``` text
 x is greater than or equal to 6!
 ```
-- Write a second `if` statement that checks whether `number` is greater than or equal to `4` and less than `12. If the condition is True, print:
-- Run the script from terminal to verify the output.
+- Write a second `if` statement that checks whether `number` is greater than or equal to `4` and less than `12`. If the condition is True, print:
 ``` text
 number is between 4 and 11
 ```
 - Run the program from the terminal and verify the output.
 
- - 
 ### Task2 - Using if-else statement
 **Objective:** Practice decision-making in Python using the `if-else` statement to compare user input with a specific value.
 
