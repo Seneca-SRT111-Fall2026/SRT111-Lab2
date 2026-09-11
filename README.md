@@ -81,9 +81,9 @@ An IF statement is a decision statement that executes or does not execute a sect
 **Instructions**
 - Create a file named `task1.py`.
 - Using `input()`, ask the user to enter a number and store it in a variable named `number`.
-```python
-x = input("Please enter a number: ")
-```
+  ```python
+  x = input("Please enter a number: ")
+  ```
 - Use the `type()` function to display the type of the value entered. Observe that `input()` always returns a string (`str`).
 - Convert `number` to an integer using:
   ```python
