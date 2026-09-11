@@ -238,7 +238,7 @@ The tasks in this section focus on loop constructs, input validation, and loop c
   - Otherwise:
     - Calculate and display the square root of the number. **Hint:** Use `math.sqrt()` to calculate the square root 
 - **Sample output**: 
-``` Python
+  ``` Python
   Please type in a number: 9
   3.0
 
@@ -250,7 +250,7 @@ The tasks in this section focus on loop constructs, input validation, and loop c
 
   Please type in a number: 0
   Exiting ...
-```
+  ```
 
 ### Part B: for Loop:
 A for loop is used for iterating over a sequence (that could be either a list, a tuple, a dictionary, a set, or a string).
