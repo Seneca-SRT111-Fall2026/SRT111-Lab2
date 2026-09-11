@@ -173,55 +173,28 @@ Once you complete all the tasks, push your work to GitHub.
 
 The tasks in this section focus on loop constructs, input validation, and loop control techniques in Python.
 
-
-## INVESTIGATION 3: USING LOOPS
-Loops are used in all programming languages to repeat code under certain conditions.  
-A loop runs as long as its condition (expression) evaluates to `True`.  
-When the condition becomes `False`, the program continues with the next line after the loop.
-
-In Investigation 3, you will learn about the two main types of loops in Python:  
-- `while` loop  
-- `for` loop  
-
-
-### Part A: while Loop:
-In Python, a `while` loop is used to execute a block of statements repeatedly **while** a given condition is `True`.  
-A `while` loop can use the same type of Boolean expressions found in `if` statements.  
-While the condition remains `True`, all indented statements in the loop body will run repeatedly.  
-When the condition becomes `False`, the loop stops.
-**Note:** In Python, all statements indented by the same number of spaces after a control structure are considered part of the same block.
-
-**Syntax:**
-```python
-while condition:
-    statement(s)
-```
-**Key points:**
-- Commonly used when you want to repeat statements until an event occurs (event-controlled loop).
-- The loop must have a way to change the condition to avoid running forever.
-- An iteration variable is often used in the condition and is updated inside the loop.
-  
- ```python
-count = 0  # iteration variable
-while count != 5:  # condition (evaluates to True or False)
-    print(count)   # loop body
-    count = count + 1  # update the iteration variable
-
-print('Loop has ended')  # runs after the condition becomes False
-```
-
-### Task5 - Understanding While Loops in Python
-**Objective:** To explore counter-controlled and event-driven while loops in Python and understand common loop-related errors such as the off-by-one error.
+### Task5 - Exploring While Loops
+**Objective:** Understand how the starting value and loop condition affect the number of iterations in a `while` loop.
 
 **Instructions**
-- Create a new file `task5.py` and add the comment section at the top.
-- Copy the above code block in task5.py.
-- Change the value of count to 1 and then run the program to see how many times the loop runs.
-- Next change the while condition to `count < 5 ` and then run the program to see how many times the loop runs.
-- Next change the condition to `count <= 5` and then run the program to see how many times the loop runs.
-- What did you observe in all of the above examples when you change the value of loop variable or the expression. It is important that you are well aware of initial value of loop variable and the condition in the loop expression to know exactly how many times the loop will be executed.
-- In the word document, under `Task5` write your reflections of this task.
-
+- Create a new file `task5.py`.
+- Copy the following code into your file.
+  ```python
+    count = 0
+    while count != 5:
+        print(count)
+        count = count + 1
+    print("Loop has ended")
+  ```
+- Run the program and observe the output.
+- Modify the program and run it again using each of the following changes.
+  - Change `count = 0` to `count = 1`.
+  - Change the condition to `count < 5`.
+  - Change the condition to `count <= 5`.
+- Take screenshots showing your code and the output for each version.
+- In your Word document, answer the following reflection questions:
+  - How did changing the starting value affect the output?
+  - What was the difference between using `< 5` and `<= 5`?
 
 Next, we will do a more complex but really useful example.
 In Python, we often use while loop to see if the user entered the required value. We keep asking the user for a value until the user enters the correct value. This is a scenario-driven by an event rather than driven by a counter, because you do not know how many times the user will enter the incorrect value before the user enters the correct value. See the example below:
