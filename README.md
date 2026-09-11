@@ -36,7 +36,7 @@ By the end of this lab, you will be able to:
 - Implement `while` and `for` loops to solve programming problems.
 - Use `break` and `continue` to control loop execution.
 - Document and submit program output using screenshots and a PDF report.
-- 
+  
 ## Submission Instructions
 
 ### Part A: In-Class Lab
