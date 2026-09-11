@@ -100,24 +100,24 @@ number is between 4 and 11
 - Run the program from the terminal and verify the output.
 
 ### Task2 - Using if-else statement
-**Objective:** Practice decision-making in Python using the `if-else` statement to compare user input with a specific value.
+**Objective:** Practice using an `if-else` statement to compare user input with a specific value.
 
 **Instructions:**
-- Create a new file `task2.py` and add the comment section at the top.
-- Use the input() function and ask the user to enter a 4-digit integer. Save this value in the variable `num`. For example:
-  ```python
-      num = input("Enter a 4-digit number: ")
-  ```
-  - Write an `if-else` statement to check if the number is **exactly 1984**:  
+- Create a new file named `task2.py`.
+- Use the `input()` function to ask the user to enter a number and store it in a variable named `num`.
+```python
+   num = int(input("Enter a number: "))
+```
+- Write an `if-else` statement to check whether `num` is equal to `1984`.  
   - If `True`, print:  
-      ```
+  ``` text
       George Orwell
-      ```  
-  - If `False`, print:  
+  ```  
+  - Otherwise, print:  
       ```
       Not quite right!
       ```
- - Run the script from terminal to verify the output. 
+ - Run the program from the terminal and verify the output. 
 
 
 ### Task3 - String comparison
