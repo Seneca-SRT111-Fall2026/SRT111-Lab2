@@ -230,24 +230,26 @@ Correct PIN, You can enter!
 - Use a loop that repeatedly prompts the user to enter a number.
 - Process the input as follows:
   - If the number is negative:
+    - Print `Invalid number.`
+    - Use `continue` to prompt the user again.
   - If the number is `0`:
-    -  **Negative Number**: Print "Invalid number." and prompt again (use continue).
-    -  **Zero**: Print "Exiting ..." and terminate the loop (use break).
-    - **Non-Negative Number**: Calculate and print the square root of the number
+    - Print `Exiting ...`
+    - Use `break` to terminate the loop.
+  - Otherwise:
+    - Calculate and display the square root of the number. **Hint:** Use `math.sqrt()` to calculate the square root 
 - **Sample output**: 
 ``` Python
+  Please type in a number: 9
+  3.0
 
-Please type in a number: 9
-3.0
+  Please type in a number: 1
+  1.0
 
-Please type in a number: 1
-1.0
+  Please type in a number: -9
+  Invalid number.
 
-Please type in a number: -9
-Invalid number.
-
-Please type in a number: 0
-Exiting ...
+  Please type in a number: 0
+  Exiting ...
 ```
 
 ### Part B: for Loop:
