@@ -105,9 +105,9 @@ An IF statement is a decision statement that executes or does not execute a sect
 **Instructions:**
 - Create a new file named `task2.py`.
 - Use the `input()` function to ask the user to enter a number and store it in a variable named `num`.
-```python
-   num = int(input("Enter a number: "))
-```
+  ```python
+    num = int(input("Enter a number: "))
+  ```
 - Write an `if-else` statement to check whether `num` is equal to `1984`.  
   - If `True`, print:  
   ``` text
