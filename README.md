@@ -29,7 +29,7 @@ You may use AI tools (e.g., ChatGPT, Copilot, Gemini) to help explain concepts, 
 
 Submitting copied, shared, or AI-generated solutions as your own work may result in a grade of zero and may be handled according to the College Academic Integrity Policy.
 
-# Lab Objectives
+## Lab Objectives
 By the end of this lab, you will be able to:
 - Accept, process, and validate user input.
 - Use conditional statements (`if`, `elif`, `else`) to make decisions.
@@ -73,7 +73,7 @@ Update the Purpose and Usage lines appropriately for each task.
 ---
 # Part A - In-Class Lab [50% marks]
 
-### Task1 - Simple if statement
+## Task1 - Simple if statement
 **Objective:** Practice using if statements in Python to make decisions based on user input, including type conversion, relational operators, and Boolean conditions.
 
 An IF statement is a decision statement that executes or does not execute a section of code based on whether the condition is True or False.
@@ -99,7 +99,7 @@ An IF statement is a decision statement that executes or does not execute a sect
   ```
 - Run the program from the terminal and verify the output.
 
-### Task2 - Using if-else statement
+## Task2 - Using if-else statement
 **Objective:** Practice using an `if-else` statement to compare user input with a specific value.
 
 **Instructions:**
@@ -120,7 +120,7 @@ An IF statement is a decision statement that executes or does not execute a sect
  - Run the program from the terminal and verify the output. 
 
 
-### Task3 - String comparison
+## Task3 - String comparison
 **Objective:** Practice using `if`, `elif`, and `else` statements to compare the lengths of two strings.
 
 **Instructions**
@@ -144,7 +144,7 @@ An IF statement is a decision statement that executes or does not execute a sect
  - Run the script from terminal to verify the output. 
 
 
-### Task4 - Income Tax Calculator with nested conditions
+## Task4 - Income Tax Calculator with nested conditions
 **Objective:** Practice using nested `if`, `elif`, and `else` statements to make decisions based on more than one condition.
 
 ![incomeTaxExample](https://github.com/user-attachments/assets/e7325ff1-a90f-445d-b119-06b95cc103c6)
@@ -161,6 +161,20 @@ An IF statement is a decision statement that executes or does not execute a sect
   - at least one single taxpayer
   - at least one married taxpayer
   - incomes from different tax brackets
+    
+## Part A Sign-Off
+
+Before leaving the lab, demonstrate all four tasks to the professor.
+The professor will verify:
+
+- Script completion
+- Successful execution
+- Understanding of the code
+- Correct output
+
+Students who do not demonstrate their work during the lab period will not receive credit for Part A.
+
+----
 
 # Part B - Take-Home Lab [50% marks]
 Complete the following tasks independently after the scheduled lab using VS Code.
@@ -173,7 +187,7 @@ Once you complete all the tasks, push your work to GitHub.
 
 The tasks in this section focus on loop constructs, input validation, and loop control techniques in Python.
 
-### Task5 - Exploring While Loops
+## Task5 - Exploring While Loops
 **Objective:** Understand how the starting value and loop condition affect the number of iterations in a `while` loop.
 
 **Instructions**
@@ -197,7 +211,7 @@ The tasks in this section focus on loop constructs, input validation, and loop c
   - What was the difference between using `< 5` and `<= 5`?
 
 
-### Task6 - Validating User Input with a While Loop
+## Task6 - Validating User Input with a While Loop
 **Objective:** Use a `while` loop to repeatedly prompt the user until a valid PIN is entered.
 
 **Instructions:**
@@ -221,7 +235,7 @@ The tasks in this section focus on loop constructs, input validation, and loop c
   ```
 - Run the program and test it with several different inputs.
   
-### Task7 - Using break and continue in Loops
+## Task7 - Using break and continue in Loops
 **Objective:** To practice using break and continue statements in Python loops to control flow based on user input.
 
 **Instructions:**
@@ -253,7 +267,7 @@ The tasks in this section focus on loop constructs, input validation, and loop c
   ```
 
 
-### Task8 - Summing Even Numbers with a For Loop
+## Task8 - Summing Even Numbers with a For Loop
 **Objective:** To use a for loop and conditional logic to calculate the sum of all even numbers from 1 to 100.
 
 **Instructions**
@@ -269,17 +283,26 @@ The tasks in this section focus on loop constructs, input validation, and loop c
   ```text
   The sum of all even numbers from 1 to 100 is: 2550
   ```
-## Lab 2 Sign-Off
-- Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackboard*.
-- The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
-    - task1.py
-    - task2.py
-    - task3.py
-    - task4.py
-    - task5.py
-    - task6.py
-    - task7.py
-    - task8.py
+---
 
+## Reflection
+Answer the following questions in complete sentences:
+- What are the main differences between an if statement, a while loop, and a for loop?
+- How can input validation improve the reliability of a program?
+- Why we use break and continue statements?
+
+---
+
+## Part B Sign-Off
+- Push your Lab01 folder to GitHub.
+- Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackbaord*.
+- Your PDF must include:
+    - Task 5 screenshot(s)
+    - Task 6 screenshot(s)
+    - Task 7 screenshot(s)
+    - Task 8 screenshot(s)
+    - Reflection questions
+- Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
+- Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as "**Satisfactory**" with a grade of 0, provided the work is satisfactory. 
 - Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
 - Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as "**Satisfactory**" with a grade of 0, provided the work is satisfactory. 
