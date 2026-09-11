@@ -175,7 +175,7 @@ Before You Begin:
 
 The tasks in this section focus on loop constructs, input validation, and loop control techniques in Python.
 
-## Task5 - Exploring While Loops
+### Task5 - Exploring While Loops
 **Objective:** Understand how the starting value and loop condition affect the number of iterations in a `while` loop.
 
 **Instructions**
@@ -199,7 +199,7 @@ The tasks in this section focus on loop constructs, input validation, and loop c
   - What was the difference between using `< 5` and `<= 5`?
 
 
-## Task6 - Validating User Input with a While Loop
+### Task6 - Validating User Input with a While Loop
 **Objective:** Use a `while` loop to repeatedly prompt the user until a valid PIN is entered.
 
 **Instructions:**
@@ -223,7 +223,7 @@ The tasks in this section focus on loop constructs, input validation, and loop c
   ```
 - Run the program and test it with several different inputs.
   
-## Task7 - Using break and continue in Loops
+### Task7 - Using break and continue in Loops
 **Objective:** To practice using break and continue statements in Python loops to control flow based on user input.
 
 **Instructions:**
@@ -255,7 +255,7 @@ The tasks in this section focus on loop constructs, input validation, and loop c
   ```
 
 
-## Task8 - Summing Even Numbers with a For Loop
+### Task8 - Summing Even Numbers with a For Loop
 **Objective:** To use a for loop and conditional logic to calculate the sum of all even numbers from 1 to 100.
 
 **Instructions**
@@ -273,7 +273,7 @@ The tasks in this section focus on loop constructs, input validation, and loop c
   ```
 ---
 
-## Reflection
+### Reflection
 Answer the following questions in complete sentences:
 - What are the main differences between an if statement, a while loop, and a for loop?
 - How can input validation improve the reliability of a program?
