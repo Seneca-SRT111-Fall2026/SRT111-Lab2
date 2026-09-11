@@ -86,17 +86,17 @@ x = input("Please enter a number: ")
 ```
 - Use the `type()` function to display the type of the value entered. Observe that `input()` always returns a string (`str`).
 - Convert `number` to an integer using:
-```python
- number = int(number)
-```
+  ```python
+   number = int(number)
+  ```
 - Write an if statement to check if x is greater than or equal to 6. If the condition is True, print:
-``` text
-x is greater than or equal to 6!
-```
+  ``` text
+  x is greater than or equal to 6!
+  ```
 - Write a second `if` statement that checks whether `number` is greater than or equal to `4` and less than `12`. If the condition is True, print:
-``` text
-number is between 4 and 11
-```
+  ``` text
+  number is between 4 and 11
+  ```
 - Run the program from the terminal and verify the output.
 
 ### Task2 - Using if-else statement
