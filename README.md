@@ -10,8 +10,8 @@
 In this lab, you will design, implement, and test Python programs that use decision-making and iteration to solve simple problems.
 
 The lab is divided into two components:
-- **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading. This part can be done in Jupyter Lab or VS Code).
-- **Part B: Take-Home Lab** (must be completed independently after class using a local installation of VS Code).
+- **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading. ).
+- **Part B: Take-Home Lab** (can be completed independently after thescheduled class).
 
   
 This lab focuses on the following Python concepts:
@@ -41,6 +41,7 @@ By the end of this lab, you will be able to:
 
 ### Part A: In-Class Lab
 - Complete all assigned in-class tasks during your scheduled lab.
+- This part can be completed in Jupyter Lab or VS Code. You have choice.
 - Demonstrate your completed work to the professor before leaving the lab.
 - The professor may ask you to explain portions of your code.
 - No PDF submission is required for Part A unless otherwise instructed.
@@ -58,7 +59,7 @@ For each task:
 5. Answer any reflection questions included in the lab.
 6. Convert the Word document to PDF.  Name the PDF file using your Seneca usernmae `yourusername.pdf`.
 7. Submit the PDF to Blackboard.
-8. Each task carries 1.25 marks.
+8. Each task carries 1.0 marks.
 
  ## Required File Header
 For every Python file submitted in this lab (task1.py, task2.py, etc.), include the following comment block at the top of the file:
@@ -176,19 +177,20 @@ Students who do not demonstrate their work during the lab period will not receiv
 
 ----
 
-# Part B - Take-Home Lab [50% marks]
+# Part B - Take-Home Lab [60% marks]
 Complete the following tasks independently after the scheduled lab using VS Code.
 Before You Begin:
 - Open your local Git repository **`SRT111F2026`** on your computer.
 - Create a new folder named **`Lab02`** inside the repository.
 - Open the **`Lab02`** folder in VS Code.
 - Create all Python files for this lab (`task5.py`, `task6.py`, `task7.py`, and `task8.py`) inside the **`Lab02`** folder.
-For Each Task
-- take screenshots showing both your code and program output.
-- Insert the screenshots into your submission document under the appropriate task heading
+- For each task:
+   - Run the script using the VS Code terminal
+   - Take a screenshot that clearly shows:  
+      - Your code in the editor.  
+      - The terminal output, including your username visible in the terminal.  
+   - Insert the screenshots into a Word document under the heading. You will export this word document to PDF and submit it on Blackboard.
 
-Failure to include your username in the terminal screenshot may result in a grade of zero for that task.
-Once you complete all the tasks, push your work to GitHub.
 
 The tasks in this section focus on loop constructs, input validation, and loop control techniques in Python.
 
