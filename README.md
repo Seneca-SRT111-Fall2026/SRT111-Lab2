@@ -37,9 +37,17 @@ By the end of this lab, you will be able to:
 - Use `break` and `continue` to control loop execution.
 - Document and submit program output using screenshots and a PDF report.
   
-## Submission Instructions
+ ## Required Comment Header
+For every script created in this lab  include the following comment block at the top of the file/cell. 
+```Python
+# Author: Your Name
+# Date: YYYY-MM-DD
+# Purpose: Brief description of what the program does.
+# Usage: python ./task1.py
+```
 
-### Part A: In-Class Lab
+---
+## Part A - In-Class Lab [50% marks]
 - Complete all assigned in-class tasks during your scheduled lab.
 - This part can be completed in Jupyter Lab or VS Code. You have choice.
 - Demonstrate your completed work to the professor before leaving the lab.
@@ -47,34 +55,7 @@ By the end of this lab, you will be able to:
 - No PDF submission is required for Part A unless otherwise instructed.
 - Each task carries 1.25 marks.
 
-### Part B: Take-Home Lab
-
-For each task:
-1. Create and run the required Python script in VS Code.  
-3. Take a screenshot that clearly shows:  
-   - The code in the editor.  
-   - The program output in the terminal.
-   - Your Seneca username visible in the terminal.
-4. Insert the screenshots into a Word document under under the appropriate task heading.  
-5. Answer any reflection questions included in the lab.
-6. Convert the Word document to PDF.  Name the PDF file using your Seneca usernmae `yourusername.pdf`.
-7. Submit the PDF to Blackboard.
-8. Each task carries 1.0 marks.
-
- ## Required File Header
-For every Python file submitted in this lab (task1.py, task2.py, etc.), include the following comment block at the top of the file:
-```Python
-# Author: Your Name
-# Date: YYYY-MM-DD
-# Purpose: Brief description of what the program does.
-# Usage: python ./task1.py
-```
-Update the Purpose and Usage lines appropriately for each task.
-
----
-# Part A - In-Class Lab [50% marks]
-
-## Task1 - Simple if statement
+### Task1 - Simple if statement
 **Objective:** Practice using if statements in Python to make decisions based on user input, including type conversion, relational operators, and Boolean conditions.
 
 An IF statement is a decision statement that executes or does not execute a section of code based on whether the condition is True or False.
@@ -100,7 +81,7 @@ An IF statement is a decision statement that executes or does not execute a sect
   ```
 - Run the program from the terminal and verify the output.
 
-## Task2 - Using if-else statement
+### Task2 - Using if-else statement
 **Objective:** Practice using an `if-else` statement to compare user input with a specific value.
 
 **Instructions:**
@@ -121,7 +102,7 @@ An IF statement is a decision statement that executes or does not execute a sect
  - Run the program from the terminal and verify the output. 
 
 
-## Task3 - String comparison
+### Task3 - String comparison
 **Objective:** Practice using `if`, `elif`, and `else` statements to compare the lengths of two strings.
 
 **Instructions**
@@ -145,7 +126,7 @@ An IF statement is a decision statement that executes or does not execute a sect
  - Run the script from terminal to verify the output. 
 
 
-## Task4 - Income Tax Calculator with nested conditions
+### Task4 - Income Tax Calculator with nested conditions
 **Objective:** Practice using nested `if`, `elif`, and `else` statements to make decisions based on more than one condition.
 
 ![incomeTaxExample](https://github.com/user-attachments/assets/e7325ff1-a90f-445d-b119-06b95cc103c6)
@@ -163,7 +144,7 @@ An IF statement is a decision statement that executes or does not execute a sect
   - at least one married taxpayer
   - incomes from different tax brackets
     
-## Part A Sign-Off
+### Part A Sign-Off
 
 Before leaving the lab, demonstrate all four tasks to the professor.
 The professor will verify:
@@ -177,7 +158,7 @@ Students who do not demonstrate their work during the lab period will not receiv
 
 ----
 
-# Part B - Take-Home Lab [60% marks]
+## Part B - Take-Home Lab [60% marks]
 Complete the following tasks independently after the scheduled lab using VS Code.
 Before You Begin:
 - Open your local Git repository **`SRT111F2026`** on your computer.
