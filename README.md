@@ -252,39 +252,23 @@ The tasks in this section focus on loop constructs, input validation, and loop c
   Exiting ...
   ```
 
-### Part B: for Loop:
-A for loop is used for iterating over a sequence (that could be either a list, a tuple, a dictionary, a set, or a string).
-With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
-A very common example of for loop found in all text books is:
-
-``` Python
-fruits = ["apple", "banana", "cherry", "date"]
-
-# Use a for loop to iterate over the list
-for fruit in fruits:
-    print(fruit)
-```
-for loop is commonly used with range functions. Here's another example using the range function to print numbers from 0  to 5.
-
-``` Python
-for i in range(5):
-    print(i)
-```
-The range(5) function generates a sequence of numbers from 0 to 4 (inclusive of 0, exclusive of 5).
-
 
 ### Task8 - Summing Even Numbers with a For Loop
-**Objective:** To use a for loop and conditional logic to calculate the sum of all even numbers from 1 to 100 (inclusive).
+**Objective:** To use a for loop and conditional logic to calculate the sum of all even numbers from 1 to 100.
 
 **Instructions**
-- Create a new file `task8.py` and add the comment section at the top.
-- Write a Python program that.
-   - Uses a for loop to iterate over the numbers from 1 to 100 (inclusive).
-   - Checks if each number is even using the modulo operator (%).
-   - Adds even numbers to a running total.
-   - Prints the final sum after the loop ends.
-
-
+- Create a new file `task8.py`.
+- Create a variable to store a running total and initialize it to `0`.
+- Use a `for` loop to iterate through the numbers from `1` to `100` (inclusive).
+- Remember that the stop value in `range()` is not included.
+- For each number:
+- Check whether it is even using the modulo operator (`%`).
+- If the number is even, add it to the running total.
+- After the loop finishes, display the final sum.
+**Sample output**
+  ```text
+  The sum of all even numbers from 1 to 100 is: 2550
+  ```
 ## Lab 2 Sign-Off
 - Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackboard*.
 - The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
