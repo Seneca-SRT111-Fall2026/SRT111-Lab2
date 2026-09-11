@@ -47,13 +47,13 @@ For every script created in this lab  include the following comment block at the
 ```
 
 ---
-## Part A - In-Class Lab [50% marks]
+## Part A - In-Class Lab [40% marks]
 - Complete all assigned in-class tasks during your scheduled lab.
 - This part can be completed in Jupyter Lab or VS Code. You have choice.
 - Demonstrate your completed work to the professor before leaving the lab.
 - The professor may ask you to explain portions of your code.
 - No PDF submission is required for Part A unless otherwise instructed.
-- Each task carries 1.25 marks.
+- Each task carries 1.0 marks.
 
 ### Task1 - Simple if statement
 **Objective:** Practice using if statements in Python to make decisions based on user input, including type conversion, relational operators, and Boolean conditions.
