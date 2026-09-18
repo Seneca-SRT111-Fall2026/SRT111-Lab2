@@ -49,7 +49,7 @@ For every script created in this lab  include the following comment block at the
 ---
 ## Part A - In-Class Lab [40% marks]
 - Complete all assigned in-class tasks during your scheduled lab.
-- This part can be completed in Jupyter Lab or VS Code. You have choice.
+- This part can be completed in Jupyter Lab or VS Code. You have choice. I recommend using Jupyter Lab.
   - If you are using Jupyter Lab, then please create a single notebook file called Lab2.ipynb and complete each task in a unique cell. Do not create separate files for each task if you are using Jupyter Lab.
   - If you are using VS Code then,  just follow the instructions for each task and create .py files.
 - Demonstrate your completed work to the professor before leaving the lab.
