@@ -173,7 +173,6 @@ Before You Begin:
       - The terminal output, including your username visible in the terminal.  
    - Insert the screenshots into a Word document under the heading. You will export this word document to PDF and submit it on Blackboard.
 
-
 The tasks in this section focus on loop constructs, input validation, and loop control techniques in Python.
 
 ### Task5 - Exploring While Loops
