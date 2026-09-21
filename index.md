@@ -138,7 +138,7 @@ An IF statement is a decision statement that executes or does not execute a sect
 - Prompt the user to enter:
   - their annual income
   - their marital status (single or married)
-- Use nested if, elif, and else statements to determine the appropriate tax rate from the table provided. If the table does not render properly, please use the table from slides of week3.  
+- Use nested `if`, `elif`, and `else` statements to determine the appropriate tax rate from the table provided. If the table does not render properly, please use the table from the slides of week3.  
 - Display the tax rate that applies to the user.  
 - Test your program using:
   - at least one single taxpayer
@@ -171,7 +171,7 @@ Before You Begin:
    - Take a screenshot that clearly shows:  
       - Your code in the editor.  
       - The terminal output, including your username visible in the terminal.  
-   - Insert the screenshots into a Word document under the heading. You will export this word document to PDF and submit it on Blackboard.
+   - Insert the screenshots into a Word document under the appropiate task heading heading. You will export this Word document to PDF and submit it on Blackboard.
 
 The tasks in this section focus on loop constructs, input validation, and loop control techniques in Python.
 
