@@ -129,8 +129,7 @@ An IF statement is a decision statement that executes or does not execute a sect
 
 ### Task4 - Income Tax Calculator with nested conditions
 **Objective:** Practice using nested `if`, `elif`, and `else` statements to make decisions based on more than one condition.
-
-![incomeTaxExample](https://github.com/user-attachments/assets/e7325ff1-a90f-445d-b119-06b95cc103c6)
+<img src="images/incomeTaxExample.png"
 
 **Instructions:**
 
