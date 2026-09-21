@@ -68,7 +68,7 @@ An IF statement is a decision statement that executes or does not execute a sect
   number = input("Please enter a number: ")
   ```
 - Use the `type()` function to display the type of the value entered. Observe that `input()` always returns a string (`str`).
-- Convert `number` to an integer using:
+- Convert the variable `number` to an integer using:
   ```python
    number = int(number)
   ```
