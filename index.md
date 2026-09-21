@@ -10,7 +10,7 @@
 In this lab, you will design, implement, and test Python programs that use decision-making and iteration to solve simple problems.
 
 The lab is divided into two components:
-- **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading. ).
+- **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading).
 - **Part B: Take-Home Lab** (can be completed independently after the scheduled class).
 
   
@@ -38,7 +38,7 @@ By the end of this lab, you will be able to:
 - Document and submit program output using screenshots and a PDF report.
   
  ## Required Comment Header
-For every script created in this lab  include the following comment block at the top of the file/cell. 
+For every script created in this lab, include the following comment block at the top of the file/cell. 
 ```Python
 # Author: Your Name
 # Date: YYYY-MM-DD
@@ -48,7 +48,7 @@ For every script created in this lab  include the following comment block at the
 ---
 ## Part A - In-Class Lab [40% marks]
 - Complete all assigned in-class tasks during your scheduled lab.
-- This part can be completed in `Jupyter Lab` or `VS Code`. You have choice. I recommend using `Jupyter Lab`.
+- This part can be completed in `Jupyter Lab` or `VS Code`. You have a choice. I recommend using `Jupyter Lab`.
   - If you are using Jupyter Lab, then please create a single notebook file called `Lab2.ipynb` and complete each task in a unique cell. 
   - If you are using `VS Code` then,  just follow the instructions for each task and create .py files.
 - Demonstrate your completed work to the professor before leaving the lab.
@@ -65,16 +65,16 @@ An IF statement is a decision statement that executes or does not execute a sect
 - Create a file named `task1.py`.
 - Using `input()`, ask the user to enter a number and store it in a variable named `number`.
   ```python
-  x = input("Please enter a number: ")
+  number = input("Please enter a number: ")
   ```
 - Use the `type()` function to display the type of the value entered. Observe that `input()` always returns a string (`str`).
 - Convert `number` to an integer using:
   ```python
    number = int(number)
   ```
-- Write an if statement to check if x is greater than or equal to 6. If the condition is True, print:
+- Write an if statement to check if `number` is greater than or equal to 6. If the condition is True, print:
   ``` text
-  x is greater than or equal to 6!
+  number is greater than or equal to 6!
   ```
 - Write a second `if` statement that checks whether `number` is greater than or equal to `4` and less than `12`. If the condition is True, print:
   ``` text
@@ -124,7 +124,7 @@ An IF statement is a decision statement that executes or does not execute a sect
     ```python
     str1 and str2 are of equal length!
     ```
- - Run the script from terminal to verify the output. 
+ - Run the script from the terminal to verify the output. 
 
 
 ### Task4 - Income Tax Calculator with nested conditions
@@ -283,7 +283,7 @@ Answer the following questions in complete sentences:
 
 ## Part B Sign-Off
 - commit and push your Lab02 folder to GitHub repo `SRT111F2026`.
-- Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackbaord*.
+- Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackboard*.
 - Your PDF must include:
     - Task 5 screenshot(s)
     - Task 6 screenshot(s)
